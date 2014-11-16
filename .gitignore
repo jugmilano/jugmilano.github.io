@@ -1,0 +1,10 @@
+*.iml
+*.log
+*~
+.DS_Store
+.classpath
+.idea/
+.project
+.sass-cache
+.settings/
+_site

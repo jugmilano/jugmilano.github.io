@@ -1,0 +1,1 @@
+Faccio gli onori di casa per i meeting del JUG Milano presso ExcogitaNet ;)

@@ -1,0 +1,24 @@
+####
+Nome##Meeting##Pizzeria##
+RenzoBorgatti##Si##Si##
+LuigiMalagò##Si##Si##
+FilippoDiotalevi##Si##Si##
+RobertoCorda##Si##?##
+FedericoFissore##Si##Si##
+MarcelloTeodori##Si##Si##
+Andrea Merli##Sì##?##
+PancrazioAuteri##Sì##?##
+AndreaGhelfi##Si##Si##
+AndreaFranceschini##Si##Si##
+MarcoRiva##No##No##
+ChristianBiasuzzi##Si##No##
+CarloGaratti##Si##?##
+DiegoZanga##Si##?##
+BrunaGardella##Si##?##
+GianCarloPace##Si##?##
+NicoCavallotto##Si##No##
+GiovanniFerrari##Si##?##
+AlessandroLucianò##Si##No##
+VanniDurantini##Si##No##
+RobertoFonti##Si##No##
+####

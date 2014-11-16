@@ -1,0 +1,50 @@
+''Il JugMilano presenta il meeting #61:''
+
+!!GlusterFS: un file system scalabile per i big data di oggi e di domani!!
+che si terrà '''giovedì 5 giugno 2014''' presso '''Veespo - Via S. Maria alla Porta, 9 - 20123 - Milano'''
+
+! Programma !
+	*  18:45 Benvenuto: JUG news ed attività in corso
+	*  19:00 '''GlusterFS: un file system scalabile per i big data di oggi e di domani''', a cura di ''Roberto Franchini''
+	*  20:00 Chiusura lavori
+
+
+! Dettagli Organizzativi !
+	* al termine dell'incontro (ore 20:00 circa) per chi lo desidera, ci troviamo per una pizza in compagnia
+	* la partecipazione è libera, previa [http://jugevents.org/jugevents/event/show.html?id=54165|registrazione online] su Jug Events
+
+[<html>]
+<table>
+<tr>
+<td width="30%">
+<h4>Come Arrivare</h4>
+Veespo si trova in via S. Maria alla Porta 9. Il mezzo pubblico più comodo è la metropolitana rossa scendendo alla fermata '''Cairoli'''.
+</td>
+<td>
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.it/maps?f=q&source=embed&hl=en&geocode=&q=via+santa+maria+alla+porta,+9+milano&aq=&sll=45.45801,9.177492&sspn=0.005095,0.008079&vpsrc=6&t=h&ie=UTF8&hq=&hnear=Via+Santa+Maria+alla+Porta,+9,+20123+Milano,+Lombardia&ll=45.468468,9.182768&spn=0.010896,0.022359&z=14&iwloc=A&output=embed"></iframe><br /><small><a href="http://maps.google.it/maps?f=q&source=embed&hl=en&geocode=&q=via+santa+maria+alla+porta,+9+milano&aq=&sll=45.45801,9.177492&sspn=0.005095,0.008079&vpsrc=6&t=h&ie=UTF8&hq=&hnear=Via+Santa+Maria+alla+Porta,+9,+20123+Milano,+Lombardia&ll=45.468468,9.182768&spn=0.010896,0.022359&z=14&iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</td>
+</tr>
+</table>
+[</html>]
+
+
+
+! Abstract degli interventi !
+
+----
+ 
+'''GlusterFS: un file system scalabile per i big data di oggi e di domani'''
+Il talk si propone si propone di fornire un overview di GlusterFS, il file system distribuito di Red Hat, evidenziando:
+- le sue feature principali: dai layout di deployment alla compatibilità con hadoop
+- i suoi pregi e difetti (non è tutto rose e fiori)
+- perchè è stato scelto e come è stato utilizzato in un caso d'uso reale, scalando da 4 a 28TB in 4 anni.
+
+
+A cura di '''Roberto Franchini''':
+Roberto Franchini lavora per [http://www.celi.it|CELI srl], società specializzata nell'analisi del linguaggio e nella semantica.
+Si occupa principalmente di scalabilità e infrastruttura per il progetto [http://www.blogmeter.it|Blogmeter] con un occhio particolare verso il mondo noSQL.
+Ha cominciato a programmare con un c64 ed ha più di 10 anni di esperienza nella programmazione in Java.
+
+
+

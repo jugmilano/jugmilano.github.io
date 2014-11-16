@@ -1,0 +1,12 @@
+# Site settings
+title: JUG Milano
+email: info@jugmilano.it
+description: > # this means to ignore newlines until "baseurl:"
+  JUG Milano web site, a community for Java and everything related in Milan and beyond.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: jugmilano
+github_username:  jugmilano
+
+# Build settings
+markdown: kramdown

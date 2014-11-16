@@ -1,0 +1,15 @@
+::[<html>]
+<a href="http://roma.javaday.it/javaday2010/"> 
+<img src="http://roma.javaday.it/javaday2010/sites/default/files/image/banner/javaday_IV_468_60.gif" alt="Javaday Roma IV Edizione" /> 
+</a>
+[</html>]::
+
+Le legge di Murphy ha colpito ancora e ci siamo ritrovati a Roma di nuovo con la pioggia, ma ciò non ha scalfito minimamente la soddisfazione nel trovarsi al più grande evento su Java che ci sia in Italia. E quando dico grande, intendo enorme, quest'anno le presenze sono arrivate oltre i 1500, sempre più sponsor ed anche le riprese televisive per fare in mondo che quanto visto possa essere disponibile anche per chi non c'era. E comunque peggio per voi, al [http://roma.javaday.it/javaday2010/|JavaDay Roma 2010 IV Edizione] c'erano proprio tutti!
+
+----
+
+Nel densissimo programma, dopo una breve comparsata su Scala, ho scelto la traccia ''Scalability & Concurrency'' che sulla carta vuoi per la presenza degli speaker stranieri vuoi per l'argomento ''da architetti'' e il malcelato desiderio di riuscire ad essere nerd quanto un [http://it.wikipedia.org/wiki/Mark_Zuckerberg|Mark Zuckerberg], si presentava ai miei occhi come una delle più sugose del lotto e sicuramente non ha tradito le aspettative.
+
+Purtroppo fra le chiacchiere e i saluti ai sempre ottimi organizzatori del [http://www.jugroma.it/|JUG Roma] mi perdo lo [http://roma.javaday.it/javaday2010/sites/default/files/Techine-pratiche-javaday.pdf|speech] di [http://in.relation.to/Bloggers/Sanne|Sanne Grinovero] ed il primo che sono riuscito a seguire è quello in inglese degli sviluppatori di [http://roma.javaday.it/javaday2010/sites/default/files/ClusteringHazelcast-javaday.pdf|Hazelcast], un'interessante implementazione distribuita e transazionale delle interfacce del Java Collection Framework per avere un data grid e di [http://java.sun.com/javase/6/docs/technotes/guides/concurrency/index.html|java.util.concurrent], per l'esecuzione di job distribuiti su cluster. Uno strumento decisamente da provare e con una barriera di ingresso davvero minima, grazie alla scelta molto azzeccata di sfruttare API esistenti. Seguono demo su alcune possibili topologie di cluster con aggiunta dinamica di nodi e comparazione con soluzioni analoghe di altri vendor sia in ambito opensource che proprietario.
+
+Hazelcast rimane però solo una delle possibili soluzioni, e se volessi invece una panoramica completa su quando abbia senso portare i dati di un'applicazione oltre il modello relazionale e soprattutto come farlo? Probabilmente dovrei riuscire a seguire una presentazione su tutti i prodotti in questo ambito, recuperare le mie conoscenze teoriche di base sui database relazionali, incrociarle con competenze su scalabilità ed architetture distribuite e poi fare le mie deduzioni, sperando che l'esperienza accumulata mi permetta di non prendere cantonate. In alternativa è bastato seguire la successiva presentazione [http://roma.javaday.it/javaday2010/sites/default/files/ScalableDatabases-javaday.pdf|Scalable Databases] di [http://sbtourist.blogspot.com/|Sergio Bossa], un lavoro che non ha nulla di meno dell'eccezionale.

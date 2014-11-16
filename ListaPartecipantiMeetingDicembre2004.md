@@ -1,0 +1,9 @@
+####
+Nome##Meeting##Pizzeria##
+RenzoBorgatti##Si##Si##
+MarcelloTeodori##Si##Si##
+GiorgioVespucci##Si##?##
+GianugoRabellino##Si##Si##
+FilippoDiotalevi##Si##Si##
+MarcoLamberto##Si##Si##
+####

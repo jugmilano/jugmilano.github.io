@@ -1,0 +1,4 @@
+! Rumah adalah - !
+Dalam arti umum, rumah adalah salah satu [http://instiki.org/show/HowToUseInstikiAsWebSite|bangunan] yang dijadikan tempat tinggal selama jangka waktu tertentu [http://www.carasehat.co.id|cara sehat]. Rumah bisa menjadi tempat tinggal manusia maupun hewan, namun untuk istilah tempat tinggal yang khusus bagi hewan adalah sangkar, sarang, atau kandang. Dalam arti khusus, rumah mengacu pada konsep-konsep sosial-kemasyarakatan yang terjalin di dalam bangunan tempat tinggal, seperti keluarga, hidup, makan,[https://www.kreditaja.com|kredit tanpa agunan] tidur, beraktivitas, dan lain-lain.
+dikutip oleh:
+[http://www.optimaweb.co.id/jasa-seo|Jasa seo Jakarta], [http://www.trimasjaya.com/pintu-dan-jendela/index.html|Pintu dan jendela], [http://kiosauto.com|Aksesoris mobil], [http://thejakartastory.blogspot.com/2013/05/cipto-junaedy.html|cipto junaedy], [http://www.beritaterkini.web.id/2014/04/cipto-junaedy.html|cipto junaedy] 

@@ -1,0 +1,1 @@
+Pagina spostata in `DBAdOggetti`

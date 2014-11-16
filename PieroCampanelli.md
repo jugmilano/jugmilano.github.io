@@ -1,0 +1,1 @@
+Lavoro come software engineer nel campo del trading bancario. Mi occupo di tutto cio' che ruota intorno al mondo Java.

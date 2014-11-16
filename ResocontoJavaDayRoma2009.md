@@ -1,0 +1,40 @@
+[<html>]
+<a href="http://roma.javaday.it/javaday2009/"> 
+<img src="http://roma.javaday.it/javaday2009/images/banner/Javaday_468_60.gif" alt="Javaday Roma III Edizione" /> 
+</a>
+[</html>]
+
+Di ritorno dalla giornata romana del [http://roma.javaday.it/javaday2009|Java Day 2009], ecco un piccolo riepilogo di quanto visto/sentito/immaginato nel fitto programma di interventi e tra i corridoi dell'Università di Roma 3. Iniziamo col dire che il proverbiale clima mite di Roma non si è purtroppo palesato a noi pallidi ed infreddoliti milanesi, e tutta la giornata di sabato è passata sotto un'insistente pioggia (pur con una temperatura decisamente più tollerabile di quella cui siamo abituati ultimamente). Nonostante il clima avverso ed il gran numero di partecipanti, tutto si è svolto senza il minimo intoppo e per questo va sicuramente fatto un grosso plauso al JUG Roma e a tutta l'organizzazione: radunare una tale mole di persone e coordinare ben 64 diversi interventi non è sicuramente impresa facile, eppure tutto è filato via liscio e senza nessun ritardo. L'alto numero di argomenti proposti, divisi su cinque sessioni parallele, ci ha costretti ad operare necessariamente delle scelte. Di seguito un breve resoconto a proposito degli interventi che abbiamo seguito direttamente.
+
+!Oltre lobject oriented: functional programming, sistemi component-based e il linguaggio Scala!
+Nell'intervento, con tono pacato ma coinvolgente, Raffaele dell'Aversana ha illustrato alcune delle caratteristiche di [http://www.scala-lang.org/|Scala], il nuovo (l'ennesimo?) linguaggio supportato dalla JVM, e quindi completamente compatibile con Java. Lo speech si riallaccia un pò alla moda del momento: java tutto a un tratto è diventato verboso, scomodo da usare, poco produttivo. Sembra un pò di riascoltare al contrario quanto 15 anni fà i pionieri di Java affermavano rispetto a C, Visual Basic e programmazione strutturata in genere. In ogni caso, senza entrare nella diatriba, va detto che gli esempi presentati e le caratteristiche di Scala illustrate hanno sicuramente destato molto interesse: Scala presenta delle caratteristiche di maggiore compattezza rispetto a Java, estendendone di fatto l'espressività. Rispetto a Groovy, altro tema cool del momento, Scala presenta due grosse differenze:
+	* pur non avendo l'obbligo di dichiarare il tipo, è '''staticamente''' tipizzato; non si tratta quindi di un linguaggio dinamico;
+	* ha ''''almeno'''' le stesse performance di Java, anzi in alcuni contesti risulta addirittura più veloce.
+
+Ci fosse anche un Grails per Scala......
+
+!The Hitchhiker's Guide to testable code: semplici regole per scrivere codice semplice da testare!
+Nell'intervento i due relatori hanno evidenziato l'importanza dell'effettuare i test unitari automatici per realizzare software di qualità. Partendo da questo presupposto, hanno illustrato alcune semplici regole per scrivere codice che ''''sia effettivamente'''' testabile. 
+La presentazione è partita da un semplice metodo scritto decisamente male rispetto alle possibilità di testing, ed ha man mano corretto gli errori più macroscopici di design per ottenere una soluzione più vicina ai principi del TDD. La discussione ha fornito inoltre spunti per presentare/rinfrescare concetti cardine della OOP e del TDD quali:
+	* legge di demeter
+	* pattern creazionali
+	* dependency injection
+	* mock object e framework relativi
+
+Nota di colore finale: nella sezione Q&A, un agguerrito studente ha posto la seguente domanda (riassunta nei termini fondamentali): "la qualità del mio software, come mi insegnano a Fondamenti I, è una mia responsabilità; vale a dire che io devo scrivere codice ''''che funziona'''' a priori e non vedo la necessità di complicarmi la vita scrivendo anche codice di test". Che dire, ancora una volta viene testimoniato come l'Università in Italia (e parliamo naturalmente anche per esperienza diretta) sia molto lontana dal mondo reale.
+
+!Ricette per eliminare gli IF!
+Anzitutto questo intervento va citato per la straordinaria (intesa come decisamente fuori dall'ordinario) performance di Francesco Cirillo: vedere un presentatore interrotto dagli applausi per 5/6 volte ad una conferenza di programmatori è cosa più unica che rara. L'abilità di catturarsi l'attenzione del pubblico è sicuramente una dote di Cirillo che, non a caso, è stabilmente impegnato in attività di formazione. A parte la coreografia, l'intervento è stato molto interessante: sono state presentate tante situazioni di cattivo design (alzi la mano chi dei presenti non si sia riconosciuto in almeno una di esse), battezzate tuttavia non con le solite sigle o nomi inutilmente pomposi, ma con termini decisamente più fantasiosi (ed anche di impatto), uno per tutti: ''''l'allucinazione di Fowler''''.
+In definitiva, un intervento decisamente riuscito che non solo ha regalato buonumore ma ha soprattutto affrontato con leggerezza tematiche di grande importanza in tutto il ciclo di sviluppo software.
+
+
+!Come prevedere il comportamento delle applicazioni Web in produzione!
+In questo intervento i due relatori, entrambi di K-Tech, hanno illustrato l'importanza di saper valutare/predire il comportamento dei sistemi software in produzione, dal punto di vista delle performance. Oltre ad individuare e definire le figure professionali specializzate in tale contesto, hanno spiegato cosa effettivamente si intenda con performance di sistema e quanto sia importante stabilire esattamente quale sia la prestazione che interessa al cliente. 
+L'intervento è stato sicuramente interessante, aprendo una porta su un mondo spesso misconosciuto ai semplici progettisti/sviluppatori software. Nell'arco della presentazione sono state citate (in ordine un po' sparso) le competenze e le tecnologie che uno specialista del settore debba possedere: quel che è trasparso è che per far bene questo mestiere occorrano preparazione e bagaglio di esperienze non comunissime, assommando conoscenze approfondite da sistemista, DBA, architect, esperto di rete etc etc.
+A domanda diretta (cosa devo fare per intraprendere tale percorso professionale) è stato inoltre risposto che sono indispensabili forti conoscenze teoriche nell'ambito della teoria dei sistemi e dei segnali. Vuoi vedere che per una volta la trasformata di Fourier serva davvero al di fuori del campo accademico? Infine, un plauso all'emozionatissima relatrice che ha tenuto duro con bravura fino alla fine.
+
+
+!TDD con Mockito - FilippoDiotalevi!
+attach:filippo-javadayroma09.jpg
+
+É il turno del nostro FilippoDiotalevi che ci introduce al concetto di '''TDD''' con tutta la sua esperienza sul campo, presentandoci gli evidenti vantaggi nell'applicarlo, specie se abbinato ad attività di refactoring successive e con l'obiettivo finale di avere codice con totale copertura di test e mai ridondante. Si passa poi subito all'azione con un semplice esempio di applicazione durante il quale la realizzazione di una pagina web contenente un elenco di collegamenti viene costruita partendo dai test scritti su JUnit 4 in Eclipse. Tutto procede bene fino all'inevitabile punto di arresto, in cui per far passare i test abbiamo bisogno di una implementazione delle Servlet API. Volendo rimanere fedeli alla definizione di unit test in isolamento e soprattutto volendo evitare l'avvio di un servlet container per ogni test, non possiamo che ricorrere ad una libreria di generazione di mock, ed ecco che arriva il ''new kid on the block'' della situazione presentatoci da Filippo, ossia [http://code.google.com/p/mockito/|Mockito]. Semplicissimo da usare su JVM 1.5+ per le generazione dinamica dei mock e con delle API finalmente moderne disponibili sia via annotation che tramite static import, si differenzia da analoghi esistenti come [http://www.jmock.org/|JMock] o [http://www.easymock.org/|EasyMock] soprattutto per l'impostazione del comportamento da associare, che avviene tramite regole esplicite nel relativo DSL Java invece di expectation più replay, rendendone l'uso più naturale e soprattutto la comprensione dei test più immediata. Decisamente un ottimo acquisto per il nostro arsenale di strumenti di sviluppo...

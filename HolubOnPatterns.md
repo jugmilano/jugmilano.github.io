@@ -1,0 +1,16 @@
+Allora, come si diventa un buon programmatore OO? Capiamoci, non solo uno che ne capisca di oggetti, classi, incapsulamento, polimorifsmo e supercazzole varie, ma un professionista che sul serio si dimentichi del paradigma procedurale e scriva network di oggetti che cooperino come si deve?
+
+Non è che la letteratura, almeno quella di mia conoscenza, aiuti un granché: ovviamente ci sono innumerevoli libri su OOP e scaffali interi pieni di roba sui pattern, ma mi è sempre sembrato ci fosse un distacco fra libri "accademici", scritti per gente con un solido background informatico (essendo io stesso [<html>]<a href="http://www.rabellino.it/blog/index.php?title=how_many_lawyers_does_it_take_to_be_a_ge&more=1&c=1&tb=1&pb=1">un avvocato</a>[</html>], non è che ci rientri molto), e roba per "praticoni" come "Impara Java In 48 Ore, Caro il Mio Stupido Sviluppatore Web".
+
+Il libro della GoF, ad esempio, è il tipico esempio di libro accademico che spaventa ed allontana la gente, specialmente ora che C++ e Smalltalk non sono certo pane di tutti i giorni: quello che cercavo era un titolo che potessi dare ad uno dei componenti del mio staff di sviluppatori junior per far capire perché mai io sia così pignolo quando si parla di eliminare interfacce inutili, far sparire gli extends al contempo e ridurre i metodi accessor allo stretto indispensabile.
+
+Mi è capitata incredibilmente a fagiolo una [<html>]<a href="http://books.slashdot.org/books/04/11/16/1919215.shtml?tid=192&tid=156&tid=6">recensione di Slashdot</a>[</html>]: ero alla Apachecon, ed il giorno seguente sono stato fortunato il giusto da vincere ad un'estrazione per un libro Apress: gli organizzatori sono stati così gentili da inviarmi una copia di questo libro, visto che non ne avevano una in loco.
+
+Ed ora, il libro. Innanzitutto, il titolo poteva essere migliore: i pattern ci sono anche, ma il libro tratta principalmente come sviluppare software ad oggetti che sia robusto, manutenibile e solido: i Capitoli 1 e 2 sono una collezione di perle di saggezza colme di riscontri con la realtà. Se sei un un programmatore procedurale e desideri lanciarti sulla via dell'OO, o anche se sei un programmatore OO dalle fondamenta traballanti, questo libro è proprio per te: le prime 80 pagine valgono tanto oro quanto pesano. Oh, e naturalmente avrai anche i tuoi pattern, e neanche pochi, spiegati in modo chiaro e pratico, guardando esempi di codice reali (anche se lo stesso si applica anche ad un bel pò di altri libri). Dopo avere letto ''Holub on Patterns'', sarai in grado di capire meglio anche il GoF.
+
+D'altro canto, se sei un programmatore stagionato, non perdere tempo. Ma anche in tal caso ci sono buone probabilità che tu sia a capo di un gruppo di persone: passare questo libro ai tuoi sviluppatori junior può davvero fare la differenza. Sono sicuro che per me sarà così, ed apprezzerei davvero altri suggerimenti su titoli simili.
+
+--GianugoRabellino
+
+Articolo originale: [<html>]<a href="http://www.rabellino.it/blog/index.php?title=review_holub_on_patterns&more=1&c=1&tb=1&pb=1">Review: Holub on patterns</a>[</html>]
+Tradotto da: MarcelloTeodori

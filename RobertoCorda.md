@@ -1,0 +1,1 @@
+Roberto Corda: programmo in Java in una azienda milanese (Sinapsi Spa) mi auguro di avere il tempo di partecipare a molti dei prossimi meeting.
