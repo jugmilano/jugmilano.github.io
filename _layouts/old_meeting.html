@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		{% include head.html %}
+		<title>{{ page.title }} | {{ site.title }}</title>
+	</head>
+	
+	<body class="post">
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    	<div id="wrapper" class="clearfix">
+    		{% include header.html %}
+    		<div id="main" class="inner">
+                <hgroup>
+                    <h2 class="post-title fadeInUp animated">{{ page.title }}</h2>
+                    <p class="date"><span>{{ page.date | date_to_string }}</span></p>
+                </hgroup>
+                
+                <h3>{{page.description}}</h3>
+
+L'incontro si è tenuto {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
+
+<p>
+<span style="font-weight:bold">Programma</span>
+<ul>
+	<li>18:45 JUG news ed attività in corso</li>
+	<li>19:00 <a href="#abstract"><span style="font-weight:bold">{{page.description}}</span></a>, a cura di <a href="#bio"><span style="font-weight:bold">{{page.speaker}}</span></a>
+	<li>20:30 Chiusura lavori circa</li>
+</ul>
+</p>
+
+<p>
+<div id="abstract">
+<span style="font-weight:bold">Abstract dell'intevento: </span>
+<br/>
+{{ page.abstract }}
+</div>
+</p>
+<p>
+<div id="bio">
+A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
+<br/>
+{{ page.bio }}
+</div>
+</p>
+
+
+      </div> <!-- #wrapper -->
+ 		{% include footer.html %}
+ 		{% include script.html %}
+ 	</body>
+ </html>
