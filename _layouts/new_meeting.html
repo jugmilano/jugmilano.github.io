@@ -7,7 +7,6 @@
 		{% include head.html %}
 		<title>{{ page.title }} | {{ site.title }}</title>
 	</head>
-	
 	<body class="post">
 		<!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -19,10 +18,10 @@
                     <h2 class="post-title fadeInUp animated">{{ page.title }}</h2>
                     <p class="date"><span>{{ page.date | date_to_string }}</span></p>
                 </hgroup>
-                
-                <h3>{{page.description}}</h3>
 
-L'incontro si terrà {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
+                <h3>{{page.description}}</h3>
+<br/>
+L'incontro si terrà {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
 
 <p>
 <span style="font-weight:bold">Programma</span>
@@ -32,17 +31,23 @@ L'incontro si terrà {{ page.meetingdate }} presso gli uffici di {{ page.locatio
 	<li>20:30 Chiusura lavori e - per chi ha voglia - si va in pizzeria</li>
 </ul>
 </p>
-La partecipazione è libera, previa registrazione online su <a href="{{page.jugevents}}">Jug Events</a>.
-
+La partecipazione è libera, previa registrazione tramite Formspree:
+<form action="//formspree.io/andrea.iacono.nl@gmail.com" method="POST">
+	Nome: <input type="text" name="Nome">
+	<input type="text" name="_gotcha" style="display:none" />
+	<input type="hidden" name="_subject" value="{{page.title}} registration" />
+	<input type="hidden" name="_next" value="/register_landing" />
+	<input type="submit" value="Invia">
+</form>
 <p>
-<div id="abstract">
+<div id="abstract" style="text-align: justify">
 <span style="font-weight:bold">Abstract dell'intevento: </span>
 <br/>
 {{ page.abstract }}
 </div>
 </p>
 <p>
-<div id="bio">
+<div id="bio" style="text-align: justify;">
 A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
 <br/>
 {{ page.bio }}
