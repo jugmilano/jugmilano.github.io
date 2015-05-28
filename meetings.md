@@ -11,7 +11,7 @@ layout: archive
 			
 				{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
 				{% capture posttime %}{{post.date | date: '%s'}}{% endcapture %}
-				{% if posttime > nowunix %}
+				{% if posttime >= nowunix %}
 					{% capture found %}{{"true"}}{% endcapture %}
 					<li>
 						<span class="meta">{{ post.date | date_to_string }}</span>
