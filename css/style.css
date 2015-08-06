@@ -289,10 +289,6 @@ ul {
   padding: 0;
 }
 
-li {
-  margin-left: 50px;
-}
-
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
@@ -1127,6 +1123,11 @@ section.current {
   display: block;
   margin: 10px auto 20px;
 }
+
+.meeting li {
+  margin-left: 50px;
+}
+
 /* CONTACT */
 /*
 #contact {
