@@ -288,6 +288,11 @@ ol,
 ul {
   padding: 0;
 }
+
+li {
+  margin-left: 50px;
+}
+
 /*
  * Corrects list images handled incorrectly in IE 7.
  */
