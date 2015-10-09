@@ -25,7 +25,7 @@ layout: archive
 				{% endif %}
 			{% endfor %}
 			{% if found == "false"%}
-				<p><span style="font-size:22px; font-weight:bold">Stiamo organizzando: stay tuned!</span></p>
+				<p><br/><span style="font-size:22px; font-weight:bold">Stiamo organizzando il prossimo meeting, stay tuned..</span></p>
 				<h3>&nbsp;</h3>
 			{% endif %}
 		</ul>

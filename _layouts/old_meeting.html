@@ -7,7 +7,6 @@
 		{% include head.html %}
 		<title>{{ page.title }} | {{ site.title }}</title>
 	</head>
-	
 	<body class="post">
 		<!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
@@ -20,9 +19,9 @@
                     <p class="date"><span>{{ page.date | date_to_string }}</span></p>
                 </hgroup>
                 
-                <h3>{{page.description}}</h3>
+                <div style="text-align:center"><h2>{{page.description}}</h2></div>
 
-L'incontro si è tenuto {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
+L'incontro si è tenuto {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
 
 <p>
 <span style="font-weight:bold">Programma</span>
@@ -45,10 +44,19 @@ L'incontro si è tenuto {{ page.meetingdate }} presso gli uffici di {{ page.loca
 A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
 <br/>
 {{ page.bio }}
+
+{% if page.slides %}
+<br/>
+<br/>
+Le slide dell'intervento sono disponibili su <a href="{{page.slides}}">{{page.slides}}</a>.
+{% endif %}
+{% if page.code %}
+<br/>
+I sorgenti sono disponibili su <a href="{{page.code}}">{{page.code}}</a>.
+{% endif %}
+
 </div>
 </p>
-
-
       </div> <!-- #wrapper -->
  		{% include footer.html %}
  		{% include script.html %}
