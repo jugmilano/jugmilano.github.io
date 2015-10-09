@@ -3,7 +3,7 @@ layout: archive
 ---
 <div id="main" class="inner">
 	<section class="clearfix">
-		<h2 class="post-title fadeInUp animated">Il prossimo incontro del JUG</h2>
+		<h2 class="post-title">I prossimi incontri del JUG</h2>
 		<p>
 		<ul>
 			{% capture found %}{{"false"}}{% endcapture %}
@@ -25,14 +25,14 @@ layout: archive
 				{% endif %}
 			{% endfor %}
 			{% if found == "false"%}
-				<p><br/><span style="font-size:22px; font-weight:bold">Stiamo organizzando il prossimo meeting, stay tuned..</span></p>
+				<p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:22px; font-weight:bold">Stiamo organizzando il prossimo meeting, stay tuned..</span></p>
 				<h3>&nbsp;</h3>
 			{% endif %}
 		</ul>
 		</p>
 		
 		<p><br/>
-		<h2 class="post-title fadeInUp animated">Gli scorsi incontri del JUG</h2>
+		<h2 class="post-title">Gli scorsi incontri del JUG</h2>
 		<ul>
 			{% for post in site.posts %}
 				{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}

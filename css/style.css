@@ -855,7 +855,7 @@ body > #wrapper {
   margin: 0 auto;
   /*   max-width: 720 / 1024% * 100;  */
 
-  max-width: 50em;
+  max-width: 60em;
   -moz-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
