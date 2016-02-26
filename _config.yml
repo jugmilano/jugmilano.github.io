@@ -11,6 +11,4 @@ gplus: 104844775136245946302/posts
 
 highlighter: pygments
 permalink: pretty
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
+markdown: kramdown
