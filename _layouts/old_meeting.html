@@ -22,7 +22,20 @@
                 <div style="text-align:center"><h2>{{page.description}}</h2></div>
 
 L'incontro si è tenuto {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
-
+<br/>
+<br/>
+{% if page.slides %}
+<br/>
+Le slide dell'intervento sono disponibili su <a target="_blank" href="{{page.slides}}">{{page.slides}}</a>.
+{% endif %}
+{% if page.code %}
+<br/>
+I sorgenti sono disponibili su <a target="_blank" href="{{page.code}}">{{page.code}}</a>.
+{% endif %}
+{% if page.video %}
+<br/>
+La registrazione dell'intervento è su <a target="_blank" href="{{page.video}}">{{page.video}}</a>.
+{% endif %}
 <p>
 <span style="font-weight:bold">Programma</span>
 <ul>
