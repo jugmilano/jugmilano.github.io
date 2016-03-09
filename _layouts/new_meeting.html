@@ -22,16 +22,14 @@
                 <div style="text-align:center"><h2>{{page.description}}</h2></div>
 <br/>
 L'incontro si terrà {{ page.meetingdate }} presso gli uffici di {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
-
-<p>
-<span style="font-weight:bold">Programma</span>
+<p/>
+<div style="font-weight:bold">Programma</div>
 <ul>
 	<li>19:00 JUG news ed attività in corso</li>
 	<li>19:10 <a href="#abstract"><span style="font-weight:bold">{{page.description}}</span></a>, a cura di <a href="#bio"><span style="font-weight:bold">{{page.speaker}}</span></a>
 	<li>20:30 Chiusura lavori e - per chi ha voglia - si va in pizzeria</li>
 </ul>
-</p>
-La partecipazione è libera, previa registrazione (ci serve per sapere quante sedie predisporre):
+La partecipazione è libera, previa <b>registrazione</b> (ci serve solo per sapere quante sedie predisporre):
 <form action="//formspree.io/info@jugmilano.it" method="POST">
 	Nome: <input type="text" name="Nome">
 	<input type="text" name="_gotcha" style="display:none" />
@@ -41,7 +39,7 @@ La partecipazione è libera, previa registrazione (ci serve per sapere quante se
 </form>
 <p>
 <div id="abstract" style="text-align: justify">
-<span style="font-weight:bold">Abstract dell'intevento: </span>
+<span style="font-weight:bold">Abstract dell'intervento: </span>
 <br/>
 {{ page.abstract }}
 </div>
