@@ -25,7 +25,7 @@ layout: archive
 				{% endif %}
 			{% endfor %}
 			{% if found == "false"%}
-				<p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:22px; font-weight:bold">Stiamo organizzando il prossimo meeting, stay tuned..</span></p>
+				<p><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size:22px; font-weight:bold">Stiamo organizzando il prossimo meeting..</span></p>
 				<h3>&nbsp;</h3>
 			{% endif %}
 		</ul>
