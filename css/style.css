@@ -1352,10 +1352,12 @@ body.post hgroup .date:before {
 }
 .post #main {
   padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .post-title {
   color: #333;
-  font-size: 38.832px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 25px;
   margin-top: 0;
