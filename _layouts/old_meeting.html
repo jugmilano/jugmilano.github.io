@@ -21,7 +21,7 @@
                 
                 <div style="text-align:center"><h2>{{page.description}}</h2></div>
 
-L'incontro si è tenuto il {{ page.meetingdate | date:"%d %B %Y"}} presso gli uffici di {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
+L'incontro si è tenuto il {{ page.meetingdate | date:"%d %B %Y"}} presso {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
 <br/>
 <br/>
 {% if page.slides %}
