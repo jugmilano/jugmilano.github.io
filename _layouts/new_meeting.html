@@ -5,7 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
 		{% include head.html %}
-		<title>{{ page.title }} | {{ site.title }}</title>
+		<title>{{ page.title }} | {{ page.description }}</title>
 	</head>
 	<body class="post">
 		<!--[if lt IE 7]>
@@ -16,12 +16,12 @@
     		<div id="main" class="inner">
                 <hgroup>
                     <h2 class="post-title fadeInUp animated">{{ page.title }}</h2>
-                    <p class="date"><span>{{ page.meetingdate | date_to_string }}</span></p>
+                    <p class="date"><span>{% include formatted_date.html %}</span></p>
                 </hgroup>
 
                 <div style="text-align:center"><h2>{{page.description}}</h2></div>
 <br/>
-L'incontro si terrà il {{ page.meetingdate | date:"%d %B %Y" }} presso {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
+L'incontro si terrà {% include formatted_date.html %} presso {{ page.location }} <a target="_blank" href="{{ page.map }}">(mappa)</a> in {{ page.address }}.
 <p/>
 <div style="font-weight:bold">Programma</div>
 <ul>

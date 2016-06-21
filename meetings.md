@@ -7,18 +7,18 @@ layout: archive
 		<p>
 		<ul>
 			{% capture found %}{{"false"}}{% endcapture %}
-			{% for post in site.posts %}
+			{% for page in site.posts %}
 			
 				{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-				{% capture posttime %}{{post.meetingdate | date: '%s'}}{% endcapture %}
+				{% capture posttime %}{{page.meetingdate | date: '%s'}}{% endcapture %}
 				{% if posttime >= nowunix %}
 					{% capture found %}{{"true"}}{% endcapture %}
 					<li>
-						<a href="{{ post.url }}">
-							<h3><b>{{ post.meetingdate | date:"%d %B %Y" }}</b></h3>
+						<a href="{{ page.url }}">
+							<h3><b>{% include formatted_date.html %}</b></h3>
 						</a>
-						{% if post.description %}
-							<p><span style="font-size:22px; font-weight:bold"><a href="{{ post.url }}">{{ post.description }}</a></span></p>
+						{% if page.description %}
+							<p><span style="font-size:22px; font-weight:bold"><a href="{{ page.url }}">{{ page.description }}</a></span></p>
 						{% endif %}
 					</li>
 				{% endif %}
@@ -33,16 +33,16 @@ layout: archive
 		<p><br/>
 		<h2 class="post-title">Gli scorsi incontri del JUG</h2>
 		<ul>
-			{% for post in site.posts %}
+			{% for page in site.posts %}
 				{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-				{% capture posttime %}{{post.meetingdate | date: '%s'}}{% endcapture %}
+				{% capture posttime %}{{page.meetingdate | date: '%s'}}{% endcapture %}
 				{% if posttime < nowunix %}
 					<li>
-						<a href="{{ post.url }}">
-							<h3><b>{{ post.meetingdate | date:"%d %B %Y" }}</b></h3>
+						<a href="{{ page.url }}">
+							<h3><b>{% include formatted_date.html %}</b></h3>
 						</a>
-						{% if post.description %}
-							<p><span style="font-size:22px; font-weight:bold"><a href="{{ post.url }}">{{ post.description }}</a></span></p>
+						{% if page.description %}
+							<p><span style="font-size:22px; font-weight:bold"><a href="{{ page.url }}">{{ page.description }}</a></span></p>
 						{% endif %}
 					</li>
 				{% endif %}
