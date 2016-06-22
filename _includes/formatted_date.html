@@ -8,7 +8,7 @@
 {% when 'Sat' %}Sabato
 {% when 'Sun' %}Domenica
 {% endcase %}
-{{ page.meetingdate | date :"%d"  }}
+{{ page.meetingdate | date :"%-d"  }}
 {% assign month = page.meetingdate | date: "%-m" %}
 {% case month %}
 {% when '1' %}Gennaio
