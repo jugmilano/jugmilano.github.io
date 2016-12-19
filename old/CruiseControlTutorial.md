@@ -165,7 +165,7 @@ jdk1.4=true
 [</java>]
 
 	* Ultima quisquiglia: posizionarsi in {{{$HOME/cc}}} ed impartire il comando {{{chmod -R 755 *}}} per rendere utilizzabili tutti gli script che sono stati scaricati da svn con l'attributo di non eseguibilita' di default.
-	* A questo punto e' impartire il comando {{{checkout/main/bin/cruisecontrol.sh}}} dalla directory che contiene il config.xml per far partire Cruise Control. Dato che lo schedule interval nel file di configurazione e' 120 secondi, dopo 2 minuti si vedra' lo stesso output visto in precedenza, dato che Cruisecontrol sta eseguendo gli script di ant in automatico al posto nostro. Se poi non si uccide il processo con {{{<ctrl>+c}}}} ogni due minuti il miracolo si ripetera', anche se non essendoci modifiche sul versioning, non averranno build.
+	* A questo punto e' impartire il comando {{{checkout/main/bin/cruisecontrol.sh}}} dalla directory che contiene il config.xml per far partire Cruise Control. Dato che lo schedule interval nel file di configurazione e' 120 secondi, dopo 2 minuti si vedra' lo stesso output visto in precedenza, dato che Cruisecontrol sta eseguendo gli script di ant in automatico al posto nostro. Se poi non si uccide il processo con {{{<ctrl>+c}}} ogni due minuti il miracolo si ripetera', anche se non essendoci modifiche sul versioning, non averranno build.
 	* Per vedere variazioni, provare ad esempio ad effettuare il commit nuovamente del file override.properties, aggiungendo magari un commento.
 	* Ogni variazione determina una nuova build ed esecuzione dei test.
 
@@ -197,7 +197,7 @@ jdk1.4=true
 	* Se si esegue il tutto da linea di comando, assicurarsi che il comando java sia eseguibile. Se non viene trovato, aggiungere al path il percorso della directory bin, ad esempio: {{{export PATH=$PATH:/<jdk_home>/bin}}}
 	* Ho provato ad usare Resin come servlet engine, ma purtroppo si sono verificati problemi durante l'esecuzione della jsp. I problemi sono superabili probabilmente, ma per un deploy ed esecuzione pulite al primo colpo, Tomcat 5.0.28 ha fatto il suo dovere.
 	* JFreeChart sotto linux non funzioneranno finche' non sara' presente l'opzione {{{-Djava.awt.headless=true}}}. Per vedere i grafici delle metriche nella webapp sara' necessario inserire, ad esempio in {{{<TOMCAT_HOME>/bin/startup.sh}}} la riga {{{export JAVA_OPTS=${JAVA_OPTS}' -Djava.awt.headless=true'}}} in cima al file. Riavviare tomcat e riprovare.
-	* Se si verificano problemi di permessi di accesso ai file da Tomcat verso la directory contenente i log, controllare di avere effettivamente fornito durante il build le diretory iterativamente oppure di aver inserito il file.override. Se non lo si e' fatto verranno prese delle directory di default sulle queli si potrebbero non avere i permessi di accesso. Se anche e' stato fatto correttamente, controllare che tutte le directory nella catena abbiano il diritto di lettura: {{{/home/<utente>/cc/logs}}}. Thanks to Matteo Turra per la segnalazione. 
+	* Se si verificano problemi di permessi di accesso ai file da Tomcat verso la directory contenente i log, controllare di avere effettivamente fornito durante il build le diretory iterativamente oppure di aver inserito il file.override. Se non lo si e' fatto verranno prese delle directory di default sulle queli si potrebbero non avere i permessi di accesso. Se anche e' stato fatto correttamente, controllare che tutte le directory nella catena abbiano il diritto di lettura: {{{/home/<utente>/cc/logs}}}. Thanks to Matteo Turra per la segnalazione.
 
 
 
