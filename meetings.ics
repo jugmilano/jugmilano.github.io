@@ -1,0 +1,18 @@
+---
+# an empty front matter to instruct Jekyll to process this file, but with no layout
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:http://www.jugmilano.it
+{% for post in site.posts limit:10 %}BEGIN:VEVENT
+UID:{% if post.uid %}{{ post.uid }}{% else %}{{ post.date | date: "%Y%m%d" }}{% endif %}@jugmilano.it
+ORGANIZER;CN=JUG Milano:MAILTO:it-milano-java-jug@yahoogroups.com
+LOCATION:{{ post.location }}
+SUMMARY:{{ post.title }}
+DESCRIPTION:{{ post.description }}
+CLASS:PUBLIC
+DTSTART;TZID=Europe/Rome:{{ post.meetingdate | date: "%Y%m%d" }}T190000
+DTEND;TZID=Europe/Rome:{{ post.meetingdate | date: "%Y%m%d" }}T203000
+DTSTAMP;TZID=Europe/Rome:{{ post.meetingdate | date: "%Y%m%d" }}T190000
+END:VEVENT
+{% endfor %}END:VCALENDAR
