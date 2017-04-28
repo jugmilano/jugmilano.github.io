@@ -1,6 +1,6 @@
 # Istruzioni per l'organizzazione di un nuovo meeting
 
-Quando la proposta di un relatore viene accettata, bisogna chiedere al relatore di fornire titolo e abstract dell'intervenro oltre a una suo breve bio.
+Quando la proposta di un relatore viene accettata, bisogna chiedere al relatore di fornire titolo e abstract dell'intervento oltre a una sua breve bio.
 Per pubblicizzare l'evento bisogna:
   * creare la pagina relativa al meeting sul sito www.jugmilano.it
   * attivare il form di registrazione
