@@ -9,6 +9,7 @@ Per pubblicizzare l'evento bisogna:
      * Twitter
      * Linkedin
      * MilanoTechScene
+
 Dopo l'evento, bisogna aggiornare il dettaglio del meeting.
 
 ## Creazione nuovo meeting sul sito
@@ -18,10 +19,10 @@ Il sito è basato su templating framework Jekyll; il contenuto del nuovo file do
 
 ```
 layout: old_meeting
-uid: meeting90
-title: "JUG Milano Meeting #90"
-date: 2017-03-28 00:00
-meetingdate: 2017-04-19
+uid: meetingNN
+title: "JUG Milano Meeting #NN"
+date: YYYY-MM-DD 00:00
+meetingdate: YYYY-MM-DD
 description: foo
 speaker: bar
 abstract: foobar
@@ -35,15 +36,15 @@ video:
 code:
 ```
 I campi hanno questi valori/formati:
-  * `layout` può avere valore `old_meeting` oppure `new_meeting`; quando il meeting è passato il valore va spostato da new a old, il ché significa che il template utilizzato per visualizzarlo passerà da `_layouts/new_meeting.html` a `_layouts/old_meeting.html`.
-  * `uid` contiene l'identificativo del meeting, nella forma `meeting##`
+  * `layout` può avere valore `old_meeting` oppure `new_meeting`; dopo che il meeting è stato tenuto, il valore va spostato da `new_meeting` a `old_meeting`, il ché significa che il template utilizzato per visualizzarlo passerà da `_layouts/new_meeting.html` a `_layouts/old_meeting.html`.
+  * `uid` contiene l'identificativo del meeting, nella forma `meeting##` dove il caratter '#' è un numero
   * `title` contiene la scritta che verrà visualizzata in alto sopra il tito del meeting nella pagina di dettaglio del meeting
   * `date` deve essere uguale alla date del nome del file, e quindi la data di creazione del file del nuovo meeting (perché Jekyll dalla versione 3 non permette di visualizzare post che abbiano data antecedente alla data corrente)
   * `meetingdate` è la data in cui si terrà il meeting
   * `description` è il titolo dell'intervento
   * `speaker` è il nome (o i nomi nel caso ci sia più di un relatore) dello speaker
   * `abstract` è l'absrtact dell'intervento
-  * `bio` è la bio del relatore; nel caso ci sia più di un relatore, si usa dell'HTML nella bio per separare le bio di ogni relatore (si veda il meeting89 per un esempio)
+  * `bio` è la bio del relatore; nel caso ci sia più di un relatore, si usa dell'HTML nella bio per separare le bio di ogni relatore (si veda il [meeting89](https://raw.githubusercontent.com/jugmilano/jugmilano.github.io/master/_posts/2017-03-01-meeting-89.md) per un esempio)
   * `location` si può copincollare dal meeting precedente (a meno che non si sia cambiata sede dell'incontro)
   * `thanks` si può copincollare dal meeting precedente (a meno che non si sia cambiata sede dell'incontro)
   * `address` si può copincollare dal meeting precedente (a meno che non si sia cambiata sede dell'incontro)
@@ -51,7 +52,6 @@ I campi hanno questi valori/formati:
   * `slides` l'URL delle slide dell'intervento; nel caso il relatore fornisca un file PDF (e non un URL), il file si può committare/pushare nella directory `/_site/pdf` e linkare direttamente da github
   * `video` l'URL del video della registrazione
   * `code` il link al repository dei sorgenti del codice utilizzato/visualizzato nell'intervento
-  * ``
 
 **Nessuno dei valori di questi campi può contenere il carattere ':', che è un carattere riservato di Jekyll.**
 
@@ -64,8 +64,7 @@ jekyll serve
 
 si può testare in locale (su http://127.0.0.1:4000) il rendering del nuovo incontro.
 
-
-Nel giro di pochi secondi dal push del file sul repo, il nuovo meeting sarà visualizzato sul sito http://www.jugmilano.it
+Quando il rendering è completo, si può pushare sul repo e nel giro di pochi secondi il nuovo meeting sarà visualizzato sul sito http://www.jugmilano.it .
 
 ## Attivazione form di registrazione
 La registrazione utilizza il servizio [https://formspree.io/](https://formspree.io/), che va attivato per ogni nuovo meeting.
@@ -76,20 +75,21 @@ Una volta pubblicato il nuovo meeting sul sito, bisogna perfezionare l'invio del
 
 La mail alla mailing list ha solitamente questo formato:
 
-  Ciao a tutti,
-  siamo lieti di annunciarvi che il prossimo incontro del JUG Milano si terrà $DATE.
 
-  Questo il programma:
-  h 19:00 - JUG news e attività in corso
-  h 19:10 - "$TITLE", a cura di $SPEAKER
-  h 20:30 (circa) - Estrazione licenza per IntelliJ Idea
+    Ciao a tutti,
+    siamo lieti di annunciarvi che il prossimo incontro del JUG Milano si terrà $DATE.
 
-  Potete trovare maggiori dettagli e registrarvi per l'incontro direttamente sul nostro sito:
-  http://www.jugmilano.it/meeting-$MEETING_NUMBER.html
+    Questo il programma:
+    h 19:00 - JUG news e attività in corso
+    h 19:10 - "$TITLE", a cura di $SPEAKER
+    h 20:30 (circa) - Estrazione licenza per IntelliJ Idea
 
-  Dopo l'incontro, per chi vorrà, ci mangeremo una pizza condita da chiacchiere tecnologiche.
+    Potete trovare maggiori dettagli e registrarvi per l'incontro direttamente sul nostro sito:
+    http://www.jugmilano.it/meeting-$MEETING_NUMBER.html
 
-  Vi aspettiamo!
+    Dopo l'incontro, per chi vorrà, ci mangeremo una pizza condita da chiacchiere tecnologiche.
+
+    Vi aspettiamo!
 
 
 ## Pubblicizzare l'evento
