@@ -37,7 +37,7 @@ code:
 ```
 I campi hanno questi valori/formati:
   * `layout` può avere valore `old_meeting` oppure `new_meeting`; dopo che il meeting è stato tenuto, il valore va spostato da `new_meeting` a `old_meeting`, il ché significa che il template utilizzato per visualizzarlo passerà da `_layouts/new_meeting.html` a `_layouts/old_meeting.html`.
-  * `uid` contiene l'identificativo del meeting, nella forma `meeting##` dove il caratter '#' è un numero
+  * `uid` contiene l'identificativo del meeting, nella forma `meeting##` dove il caratter '#' è un numero. Era stato introdotto per testare l'integrazione e generazione dei vCal direttamente con Jekyll, ma attualmente non viene usato per altri scopi e non è mandatory.
   * `title` contiene la scritta che verrà visualizzata in alto sopra il tito del meeting nella pagina di dettaglio del meeting
   * `date` deve essere uguale alla date del nome del file, e quindi la data di creazione del file del nuovo meeting (perché Jekyll dalla versione 3 non permette di visualizzare post che abbiano data antecedente alla data corrente)
   * `meetingdate` è la data in cui si terrà il meeting
