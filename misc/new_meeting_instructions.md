@@ -27,11 +27,9 @@ Per info, scrivere a usergroup@manning.com una mail tipo questa:
     if we could have a free copy of the "???" ebook to raffle
     for the participants of the meeting.
 
-    Thanks and regards,
+    Thanks in advance and regards,
 
 
-Thanks in advance and regards,
-Andrea
 
 
 ## Creazione nuovo meeting sul sito
