@@ -19,6 +19,19 @@ Dopo l'evento, bisogna aggiornare il dettaglio del meeting.
 
 ## Verifica libro Manning
 Manning offre gratuitamente al JUG Milano un libro in formato elettronico da estrarre fra i partecipanti all'incontro; il libro da estrarre deve essere in tema con il contenuto dell'intervento, e va scelto fra i titoli di Manning presenti in catalogo.
+Per info, scrivere a usergroup@manning.com una mail tipo questa:
+
+    Hi,
+    on ???, ??th it will be held a talk at JUG Milano about ???
+    ( http://www.jugmilano.it/meeting-??.html ), and I was wondering
+    if we could have a free copy of the "???" ebook to raffle
+    for the participants of the meeting.
+
+    Thanks and regards,
+
+
+Thanks in advance and regards,
+Andrea
 
 
 ## Creazione nuovo meeting sul sito
