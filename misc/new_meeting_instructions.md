@@ -1,7 +1,12 @@
 # Istruzioni per l'organizzazione di un nuovo meeting
 
+Per definire la data del meeting, bisogna fare riferimento al calendario dello spazio Venini 42:
+
+[http://meeting.venini42.it/venini42](http://meeting.venini42.it/venini42)
+
 Quando la proposta di un relatore viene accettata, bisogna chiedere al relatore di fornire titolo e abstract dell'intervento oltre a una sua breve bio.
-Per pubblicizzare l'evento bisogna:
+Per pubblicare l'evento bisogna:
+  * verificare libro Manning sull'argomento
   * creare la pagina relativa al meeting sul sito www.jugmilano.it
   * attivare il form di registrazione
   * mandare una mail alla mailing list it-milano-java-jug@yahoogroups.com
@@ -11,6 +16,10 @@ Per pubblicizzare l'evento bisogna:
      * MilanoTechScene
 
 Dopo l'evento, bisogna aggiornare il dettaglio del meeting.
+
+## Verifica libro Manning
+Manning offre gratuitamente al JUG Milano un libro in formato elettronico da estrarre fra i partecipanti all'incontro; il libro da estrarre deve essere in tema con il contenuto dell'intervento, e va scelto fra i titoli di Manning presenti in catalogo.
+
 
 ## Creazione nuovo meeting sul sito
 Per creare un nuovo meeting sul sito, è necessario creare un nuovo file nella directory /_posts del repository github del nostro sito. Il nome del file ha formato YYYY-MM-DD-meeting-NN.md, dove i placeholder Y, M e D hanno i soliti valori e N indica il numero del meeting: **la data nel nome file dev'essere quella di creazione del file e non del meeting**.
@@ -105,5 +114,5 @@ Qui Matteo è più esperto di me su come fare per dargli più visibilita. Grazie
 In questo momento è il mio indirizzo a essere associato al calendario di MTS, per cui posso farlo solo io. Non sono sicuro si possa fare con l'indirizzo `info@jugmilano.it` perché è un alias.
 
 ## Aggiornamento del sito dopo l'incontro
-Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_meeting` a `old_meeting`.
+Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_meeting` a `old_meeting`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
 
