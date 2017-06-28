@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		{% include head.html %}
+		<title>{{ page.title }} | {{ page.description }}</title>
+	</head>
+	<body class="post">
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    	<div id="wrapper" class="clearfix">
+    		{% include header.html %}
+    		<div id="main" class="inner">
+                <hgroup>
+                    <h2 class="post-title fadeInUp animated">{{ page.title }}</h2>
+                    <p class="date"><span>{% include formatted_date.html %}</span></p>
+                </hgroup>
+
+                <div style="text-align:center"><h2>{{page.description}}</h2></div>
+<br/>
+L'incontro si terrà {% include formatted_date.html %} in {{ page.address }} <a target="_blank" href="{{ page.map }}">(mappa)</a> presso {{ page.location }} {{ page.thanks }}.
+<p/>
+{% if page.schedule %}
+<div style="font-weight:bold">Programma</div>
+<p>{{ page.schedule }}</p>
+{% endif %}
+La partecipazione è libera, previa <b>registrazione</b> (ci serve solo per sapere quante persone prevedere):
+<form action="//formspree.io/info@jugmilano.it" method="POST">
+	Nome: <input type="text" name="Nome">
+	<input type="text" name="_gotcha" style="display:none" />
+	<input type="hidden" name="_subject" value="{{page.title}} registration" />
+	<input type="hidden" name="_next" value="/register_landing" />
+	<input type="submit" value="Invia">
+</form>
+<p>
+<div id="abstract" style="text-align: justify">
+<span style="font-weight:bold">Abstract dell'intervento: </span>
+<br/>
+{{ page.abstract }}
+</div>
+</p>
+<p>
+<div id="bio" style="text-align: justify;">
+A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
+<br/>
+{{ page.bio }}
+</div>
+</p>
+
+
+      </div> <!-- #wrapper -->
+ 		{% include footer.html %}
+ 		{% include script.html %}
+ 	</body>
+ </html>
