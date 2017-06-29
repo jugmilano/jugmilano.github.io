@@ -35,6 +35,14 @@ La partecipazione è libera, previa <b>registrazione</b> (ci serve solo per sape
 	<input type="hidden" name="_next" value="/register_landing" />
 	<input type="submit" value="Invia">
 </form>
+{% if page.miscdetails %}
+<p>
+<div id="miscdetails" style="text-align: justify">
+{{ page.miscdetails }}
+</div>
+</p>
+{% endif %}
+{% if page.abstract %}
 <p>
 <div id="abstract" style="text-align: justify">
 <span style="font-weight:bold">Abstract dell'intervento: </span>
@@ -42,6 +50,8 @@ La partecipazione è libera, previa <b>registrazione</b> (ci serve solo per sape
 {{ page.abstract }}
 </div>
 </p>
+{% endif %}
+{% if page.bio %}
 <p>
 <div id="bio" style="text-align: justify;">
 A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
@@ -49,6 +59,7 @@ A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
 {{ page.bio }}
 </div>
 </p>
+{% endif %}
 
 
       </div> <!-- #wrapper -->
