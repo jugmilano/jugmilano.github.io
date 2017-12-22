@@ -14,6 +14,7 @@ Per pubblicare l'evento bisogna:
      * Twitter
      * Linkedin
      * MilanoTechScene
+     * ..e altri social (vedi sotto)
 
 Dopo l'evento, bisogna aggiornare il dettaglio del meeting.
 
@@ -120,9 +121,17 @@ L'unica difficoltà su Twitter è far stare qualcosa di comprensibile in 140 car
 
 ### LinkedIn
 Qui Matteo è più esperto di me su come fare per dargli più visibilita. Grazie!
+Crare il post come "announce"
 
-### MilanoTechScene
+### Calendario MilanoTechScene
 In questo momento è il mio indirizzo a essere associato al calendario di MTS, per cui posso farlo solo io. Non sono sicuro si possa fare con l'indirizzo `info@jugmilano.it` perché è un alias.
+Attualmente è associato a ciascun account google personale.
+
+### Calendario jugmilano
+Sto segnando gli appuntamenti sul calendario della GTS, il calendario pubblico che se non erro era pubblicizzato sul vecchio wiki.
+
+### Facebook (sperimentale)
+In via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note"
 
 ## Aggiornamento del sito dopo l'incontro
 Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_meeting` a `old_meeting`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
