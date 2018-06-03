@@ -12,7 +12,7 @@ Usiamo le "sezioni" di Markdown affinché ogni "titolo" corrisponda anche ad un 
 
 ### Chi siamo ###
 
-Il JUG Milano è un gruppo di appassionati di programmazione che lavorano o gravitano attorno a Java, alla JVM e a tutte le tecnologie del suo ecosistema. Ma non solo.
+Il JVM User Group _"JUG Milano"_ è un gruppo di appassionati di programmazione che lavorano o gravitano attorno a Java, alla JVM, a tutti i linguaggi e le tecnologie del suo ecosistema. Ma non solo.
 
 ### Canali di comunicazione ###
 
@@ -24,7 +24,7 @@ Abbiamo inoltre altri profili social, che puoi trovare in fondo ad ogni pagina, 
 
 ### Incontri ###
 
-Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo (vedi la <a href="meetings">sezione meetings</a> per un archivio degli incontri precedenti).
+Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo; alla <a href="meetings">sezione meetings</a> è disponibile un archivio degli incontri precedenti.
 
 Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list oppure contattando i coordinatori del JUG Milano.
 
