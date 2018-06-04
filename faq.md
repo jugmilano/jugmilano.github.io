@@ -2,9 +2,15 @@
 layout: content
 ---
 
-## Frequently Asked Questions
+<div id="main" class="inner">
+	<section class="clearfix">
+		<h2> Frequently Asked Questions </h2>
+	</section>
+</div>
 
-In questa pagina raccogliamo una serie di FAQ, guidelines e policies.
+In questa pagina raccogliamo una serie di FAQ, guidelines e policies:
+* This will become a table of contents (this text will be scraped).
+{:toc}
 
 <!---
 Usiamo le "sezioni" di Markdown affinché ogni "titolo" corrisponda anche ad un ID nel html renderizzato, in modo da poterlo linkare come #titolo .
@@ -24,7 +30,7 @@ Abbiamo inoltre altri profili social, che puoi trovare in fondo ad ogni pagina, 
 
 ### Incontri ###
 
-Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo; alla <a href="meetings">sezione meetings</a> è disponibile un archivio degli incontri precedenti.
+Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo; alla <a href="meetings">sezione meetings</a> è disponibile un archivio degli incontri precedenti e relativo materiale.
 
 Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list oppure contattando i coordinatori del JUG Milano.
 
