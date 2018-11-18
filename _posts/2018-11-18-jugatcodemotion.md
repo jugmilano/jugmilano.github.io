@@ -1,11 +1,11 @@
 ---
-layout: old_generic
+layout: new_generic_noregistration
 uid: jugatcodemotion201811
 title: "JUG Milano at Codemotion 2018"
 date: 2018-11-18 00:00
 meetingdate: 2018-11-29
 description: "Speed up your Java/Kotlin code"
-schedule: "Vedi agenda Codemotion <a href=\"https://milan2018.codemotionworld.com/conference/\">https://milan2018.codemotionworld.com/conference/</a>"
+schedule: "Questo incontro fa parte della conferenza Codemotion 2018. Agenda Codemotion: <a href=\"https://milan2018.codemotionworld.com/conference/\">https://milan2018.codemotionworld.com/conference/</a>"
 miscdetails: "Al JVM User Group trattiamo da anni le novità che orbitano intorno al mondo Java (e non solo) e Kotlin fa molto parlare di sé, sia su Android che nello sviluppo server. Ma quali vantaggi promette Kotlin rispetto a Java? Come garantire ottime prestazioni in produzione e come misurarle? Vediamo insieme Java e Kotlin a confronto, cronometro alla mano!"
 speaker: "Francesco Vasco e Francesco Nigro"
 abstract: 
