@@ -1,6 +1,6 @@
 ---
 layout: new_generic_noregistration
-uid: jugatcodemotion201811
+uid: jugatcodemotion2018
 title: "JUG Milano at Codemotion 2018"
 date: 2018-11-18 00:00
 meetingdate: 2018-11-29
