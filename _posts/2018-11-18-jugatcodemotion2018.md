@@ -1,5 +1,5 @@
 ---
-layout: new_generic_noregistration
+layout: old_generic
 uid: jugatcodemotion2018
 title: "JUG Milano at Codemotion 2018"
 date: 2018-11-18 00:00
