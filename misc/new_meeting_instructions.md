@@ -130,6 +130,9 @@ Attualmente è associato a ciascun account google personale.
 ### Calendario jugmilano
 Sto segnando gli appuntamenti sul calendario della GTS, il calendario pubblico che se non erro era pubblicizzato sul vecchio wiki.
 
+### Gitter
+Abbiamo una chat su https://gitter.im/jugmilano/jugmilano
+
 ### Facebook (sperimentale)
 In via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note"
 
