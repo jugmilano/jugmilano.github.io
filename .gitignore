@@ -8,3 +8,4 @@
 .sass-cache
 .settings/
 _site
+.jekyll-cache/
