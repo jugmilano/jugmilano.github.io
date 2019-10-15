@@ -51,6 +51,8 @@ Se vuoi pubblicare in Mailing-list un'offerta di lavoro, ti chiediamo di formula
 - Modalità di selezione (numero e tipo di colloqui)
 - Tipo cliente o settore (per esempio finanza, energia, editoria, etc)
 
+NB: "da valutare in base l'esperienza" o simili non sono un indicazione del salario.
+
 ### Contattare i coordinatori ###
 
 L'interesse dei coordinatori del gruppo è fornire un servizio utile ed in linea con lo scopo del JUG Milano. Sono sempre sono bene accetti feedback e proposte. Vi invitiamo a farceli pervenire direttamente di persona prima/dopo i meetings, oppure scrivendo una e-mail a: info CHIOCCIOLA jugmilano PUNTO it .
