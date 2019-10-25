@@ -1,12 +1,11 @@
 ---
 layout: content
-permalink: /calendario/
 ---
 
 <div id="main" class="inner">
-	<section class="clearfix">
-		<h2> Calendario appuntamenti -non solo meetings! </h2>
-	</section>
+    <section class="clearfix">
+        <h2> Frequently Asked Questions </h2>
+    </section>
 </div>
 
 In questa pagina presentiamo un calendario con un utile rassegna dei prossimi appuntamenti di interesse per JUG Milano: meetings, futuri talk in programmazione, varie.<br/>
