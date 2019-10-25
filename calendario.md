@@ -1,5 +1,6 @@
 ---
 layout: content
+permalink: /calendario/
 ---
 
 <div id="main" class="inner">
