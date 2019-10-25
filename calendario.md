@@ -4,7 +4,7 @@ layout: content
 
 <div id="main" class="inner">
     <section class="clearfix">
-        <h2> Frequently Asked Questions </h2>
+        <h2> Calendario appuntamenti -non solo meetings! </h2>
     </section>
 </div>
 
