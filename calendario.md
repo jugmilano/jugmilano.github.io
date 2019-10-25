@@ -9,7 +9,7 @@ layout: content
 </div>
 
 In questa pagina presentiamo un calendario con un utile rassegna dei prossimi appuntamenti di interesse per JUG Milano: meetings, futuri talk in programmazione, varie.<br/>
-Per info e registrazione per partecipare ai singoli incontri, vi invitiamo a continuare a fare riferimento alla pagina dei <a href="/meetings">meetings</a>.
+Per info e registrazione per <b>partecipare ai singoli incontri</b>, vi invitiamo a continuare a fare riferimento alla pagina dei <a href="/meetings">meetings</a>.
 <br/><br/>
 È anche possibile sottoscrivere l'elenco degli appuntamenti al proprio calendario, facendo uso del bottone in calce.
 
