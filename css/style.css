@@ -1239,7 +1239,7 @@ section.current {
   right: 200px;
   text-indent: -9999em;
   width: 42px;
-  z-index: 999;
+  z-index: 99;
   -webkit-border-top-right-radius: 3px;
   -webkit-border-bottom-right-radius: 0;
   -webkit-border-bottom-left-radius: 0;
