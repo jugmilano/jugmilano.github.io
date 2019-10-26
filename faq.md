@@ -51,7 +51,7 @@ Se vuoi pubblicare in Mailing-list un'offerta di lavoro, ti chiediamo di formula
 - Modalità di selezione (numero e tipo di colloqui)
 - Tipo cliente o settore (per esempio finanza, energia, editoria, etc)
 
-NB: "da valutare in base l'esperienza" o simili non sono un indicazione del salario.
+NB: "da valutare in base all'esperienza" o simili non sono un'indicazione del salario.
 
 ### Contattare i coordinatori ###
 
