@@ -36,7 +36,7 @@ Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list opp
 
 ### Mailing-list ###
 
-Il JUG Milano ha una mailing list su <a href="https://groups.google.com/forum/#!forum/jugmilano" target="_blank">Google Groups</a>. Per poter ricevere e pubblicare un messaggio, bisogna iscriversi al gruppo direttamente dalla pagina Yahoo, oppure inviando una mail vuota a <a href="mailto:jugmilano+subscribe@yahoogroups.com">jugmilano+subscribe@yahoogroups.com</a>.
+Il JUG Milano ha una mailing list su <a href="https://groups.google.com/forum/#!forum/jugmilano" target="_blank">Google Groups</a>. Per poter ricevere e pubblicare un messaggio, bisogna iscriversi al gruppo direttamente dalla pagina <a href="https://groups.google.com/forum/#!forum/jugmilano" target="_blank">Google Groups</a>, oppure inviando una mail vuota a <a href="mailto:jugmilano+subscribe@googlegroups.com">jugmilano+subscribe@googlegroups.com</a>.
 
 ### Offerte di lavoro ###
 
