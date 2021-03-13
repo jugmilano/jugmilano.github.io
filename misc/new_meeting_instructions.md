@@ -136,6 +136,11 @@ Abbiamo una chat su https://gitter.im/jugmilano/jugmilano
 ### Facebook (sperimentale)
 In via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note"
 
+### Codemotion Communities agenda meetups "aperitech"
+Sul sito Codemotion communities vengono promossi gli eventi: https://community.codemotion.com
+e rilanciati nella loro newsletter.
+Per aprire un evento si usa il pannello di gestione: https://my.codemotion.com/#/communities#management
+
 ## Aggiornamento del sito dopo l'incontro
 Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_meeting` a `old_meeting`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
 
