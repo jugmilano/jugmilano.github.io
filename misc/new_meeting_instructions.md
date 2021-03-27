@@ -136,6 +136,11 @@ Abbiamo una chat su https://gitter.im/jugmilano/jugmilano
 ### Facebook (sperimentale)
 In via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note"
 
+### Eventbrite
+Abbiamo iniziato ad usare con forti ritorni positivi Eventbrite ancor prima del dilagare del human malware del 2020.
+È utile continuare ad usarlo anche per eventi completamente online, sia per promozione, sia come utile reminder per gli attendees.
+Il nostro gruppo si trova a: https://www.eventbrite.com/o/jug-milano-28234569107
+
 ### Codemotion Communities agenda meetups "aperitech"
 Sul sito Codemotion communities vengono promossi gli eventi: https://community.codemotion.com
 e rilanciati nella loro newsletter.
