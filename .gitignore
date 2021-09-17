@@ -9,3 +9,4 @@
 .settings/
 _site
 .jekyll-cache/
+Gemfile*
