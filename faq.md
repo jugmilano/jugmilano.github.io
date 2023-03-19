@@ -55,7 +55,7 @@ NB: "da valutare in base all'esperienza" o simili non sono un'indicazione del sa
 
 ### Contattare i coordinatori ###
 
-L'interesse dei coordinatori del gruppo è fornire un servizio utile ed in linea con lo scopo del JUG Milano. Sono sempre sono bene accetti feedback e proposte. Vi invitiamo a farceli pervenire direttamente di persona prima/dopo i meetings, oppure scrivendo una e-mail a: info CHIOCCIOLA jugmilano PUNTO it .
+L'interesse dei coordinatori del gruppo è fornire un servizio utile ed in linea con lo scopo del JUG Milano. Sono sempre sono bene accetti feedback e proposte. Vi invitiamo a farceli pervenire direttamente di persona prima/dopo i meetings, oppure scrivendo una e-mail a: `jugmilano-admin` CHIOCCIOLA googlegroups PUNTO com .
 
 ### Open-mic ###
 
