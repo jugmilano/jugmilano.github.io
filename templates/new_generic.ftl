@@ -4,55 +4,69 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		{% include head.html %}
-		<title>{{ page.title }} | {{ page.description }}</title>
+		<#include "head.ftl">
+		<title>${content.title} | ${content.description}</title>
 	</head>
 	<body class="post">
 		<!--[if lt IE 7]>
             <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
         <![endif]-->
     	<div id="wrapper" class="clearfix">
-    		{% include header.html %}
+    		<#include "header.ftl">
     		<div id="main" class="inner">
                 <hgroup>
-                    <h2 class="post-title fadeInUp animated">{{ page.title }}</h2>
-                    <p class="date"><span>{% include formatted_date.html %}</span></p>
+                    <h2 class="post-title fadeInUp animated">${content.title}</h2>
+                    <p class="date"><span>${content.meetingdate?string.@jugmilanomeetingdate}</span></p>
                 </hgroup>
-
-                <div style="text-align:center"><h2>{{page.description}}</h2></div>
+                
+                <div style="text-align:center"><h2>${content.description}</h2></div>
 <br/>
-L'incontro si terrà {% include formatted_date.html %} in {{ page.address }} <a target="_blank" href="{{ page.map }}">(mappa)</a> presso {{ page.location }} {{ page.thanks }}.
-<p/>
-{% if page.schedule %}
+L'incontro si terrà ${content.meetingdate?string.@jugmilanomeetingdate}
+<#if content.location??>
+ presso ${content.location}
+</#if>
+<#if content.map??>
+<a target="_blank" href="${content.map}">(mappa)</a>
+</#if>
+<#if content.address??>
+ in ${content.address}
+</#if>
+<#if content.thanks??>
+ ${content.thanks}
+</#if>
+.
+<br/>
+
+<#if content.schedule??>
 <div style="font-weight:bold">Programma</div>
-<p>{{ page.schedule }}</p>
-{% endif %}
-{% if page.miscdetails %}
+<p>${content.schedule}</p>
+</#if>
+
+<!-- here was formspree -->
+
+<#if content.miscdetails??>
 <p>
 <div id="miscdetails" style="text-align: justify">
-{{ page.miscdetails }}
+${content.miscdetails}
 </div>
 </p>
-{% endif %}
-{% if page.abstract %}
+</#if>
+
 <p>
-<div id="abstract" style="text-align: justify">
+<div id="abstract">
 <span style="font-weight:bold">Abstract dell'intervento: </span>
 <br/>
-{{ page.abstract }}
+${content.abstract!""}
 </div>
 </p>
-{% endif %}
-{% if page.bio %}
-<p>
-<div id="bio" style="text-align: justify;">
-A cura di <span style="font-weight:bold">{{page.speaker}}:</span>
-<br/>
-{{ page.bio }}
-</div>
-</p>
-{% endif %}
 
+<p>
+<div id="bio">
+A cura di <span style="font-weight:bold">${content.speaker!""}:</span>
+<br/>
+${content.bio!""}
+</div>
+</p>
 
       </div> <!-- #wrapper -->
  		{% include footer.html %}

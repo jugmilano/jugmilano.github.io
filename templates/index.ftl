@@ -1,6 +1,22 @@
----
-layout: index
----
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<#include "head.ftl">
+		<title>${config.site_title}</title>
+	</head>
+	
+	<body class="home">
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    	<div id="wrapper" class="clearfix">
+    		<#include "header.ftl">
+<!-- index content -->
+
+
         <br/>
     		<section id="intro">
     			<div class="intro-container inner">
@@ -23,31 +39,19 @@ layout: index
     			<h2>Meeting</h2>
      			<div class="bio clearfix">
 				    <p>Il JUG Milano <b>organizza regolarmente degli incontri</b> dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo.<p>
-   			{% capture found %}{{"false"}}{% endcapture %}
-			{% for page in site.posts %}
-				{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-				{% capture posttime %}{{page.meetingdate | date: '%s'}}{% endcapture %}
-				{% if posttime >= nowunix %}
-					{% capture found %}{{"true"}}{% endcapture %}
-				{% endif %}
-			{% endfor %}
-			{% if found == "true"%}
-				<p>
-				Prossimi eventi:
-				<ul>
-				{% for page in site.posts %}
-					{% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-					{% capture posttime %}{{page.meetingdate | date: '%s'}}{% endcapture %}
-					{% if posttime >= nowunix %}
-						<li><b>{% include formatted_date.html %}: <a href="{{ page.url }}">{{ page.description }}</a></b> (<a href="{{ page.url }}">link</a>)</li>
-					{% endif %}
-				{% endfor %}
-				</ul>
-				</p>
-			{% endif %}
-			{% if found == "false"%}
-				<!-- currently no scheduled meetings -->
-			{% endif %}
+					<#assign next_events = published_content?filter(e -> e.type == "new_meeting" || e.type == "new_generic")?filter(e -> e.meetingdate?long+86400000 gt .now?long)?sort_by("meetingdate")?reverse />
+					<#if next_events?size gt 0>
+						<p>
+						Prossimi eventi:
+						<ul>
+						<#list next_events as next_event>
+							<li><b>${next_event.meetingdate?string.@jugmilanomeetingdate}: <a href="${next_event.uri}">${next_event.description}</a></b> (<a href="${next_event.uri}">link</a>)</li>
+						</#list>
+						</ul>
+						</p>
+					<#else>
+						<!-- currently no scheduled meetings -->
+					</#if>
 				<p>&nbsp;</p>
 				<p>È disponibile un archivio degli incontri precedenti e relativo materiale in <a href="meetings">questa pagina</a>.</p>
 				</div>
@@ -115,4 +119,9 @@ layout: index
 		</section>
 
 
-
+<!-- /index content -->
+ 		</div> <!-- #wrapper -->
+ 		<#include "footer.ftl">
+ 		<#include "script.ftl">
+ 	</body>
+ </html>

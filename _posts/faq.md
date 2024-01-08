@@ -9,18 +9,10 @@ layout: content
 </div>
 
 In questa pagina raccogliamo una serie di FAQ, guidelines e policies:
-* This will become a table of contents (this text will be scraped).
-{:toc}
-
-<!---
-Usiamo le "sezioni" di Markdown affinché ogni "titolo" corrisponda anche ad un ID nel html renderizzato, in modo da poterlo linkare come #titolo .
--->
-
-### Chi siamo ###
 
 Il JVM User Group _"JUG Milano"_ è un gruppo di appassionati di programmazione che lavorano o gravitano attorno a Java, alla JVM, a tutti i linguaggi e le tecnologie del suo ecosistema. Ma non solo.
 
-### Canali di comunicazione ###
+<h3 id="canali-di-comunicazione">Canali di comunicazione</h3>
 
 Il principale strumento di comunicazione del gruppo è la Mailing-list (vedi la <a href="index#contact">sezione contatti</a> per maggiori informazioni), sulla quale è possibile chiedere informazioni o suggerimenti sul linguaggio o sulle tecnologie, postare link interessanti e - per chi vuole - proporsi come speaker per un incontro.
 
@@ -28,17 +20,17 @@ Gli unici canali di comunicazioni ufficiali sono la Mailing-list e questo sito w
 
 Abbiamo inoltre altri profili social, che puoi trovare in fondo ad ogni pagina, ma i canali di comunicazione ufficiali rimangono quelli appena descritti. Ti invitiamo caldamente a seguire sempre e costantemente i canali ufficiali per gli annunci più importanti ed in merito agli incontri per potenziali aggiornamenti logistici dell'ultima ora.
 
-### Incontri ###
+<h3 id="incontri">Incontri</h3>
 
 Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo; alla <a href="meetings">sezione meetings</a> è disponibile un archivio degli incontri precedenti e relativo materiale.
 
 Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list oppure contattando i coordinatori del JUG Milano.
 
-### Mailing-list ###
+<h3 id="mailing-list">Mailing-list</h3>
 
 Il JUG Milano ha una mailing list su <a href="https://groups.google.com/forum/#!forum/jugmilano" target="_blank">Google Groups</a>. Per poter ricevere e pubblicare un messaggio, bisogna iscriversi al gruppo direttamente dalla pagina <a href="https://groups.google.com/forum/#!forum/jugmilano" target="_blank">Google Groups</a>, oppure inviando una mail vuota a <a href="mailto:jugmilano+subscribe@googlegroups.com">jugmilano+subscribe@googlegroups.com</a>.
 
-### Offerte di lavoro ###
+<h3 id="offerte-di-lavoro">Offerte di lavoro</h3>
 
 Se vuoi pubblicare in Mailing-list un'offerta di lavoro, ti chiediamo di formularla in modo che contenga queste informazioni:
 
@@ -53,11 +45,11 @@ Se vuoi pubblicare in Mailing-list un'offerta di lavoro, ti chiediamo di formula
 
 NB: "da valutare in base all'esperienza" o simili non sono un'indicazione del salario.
 
-### Contattare i coordinatori ###
+<h3 id="contattare-i-coordinatori">Contattare i coordinatori</h3>
 
 L'interesse dei coordinatori del gruppo è fornire un servizio utile ed in linea con lo scopo del JUG Milano. Sono sempre sono bene accetti feedback e proposte. Vi invitiamo a farceli pervenire direttamente di persona prima/dopo i meetings, oppure scrivendo una e-mail a: `jugmilano-admin` CHIOCCIOLA googlegroups PUNTO com .
 
-### Open-mic ###
+<h3 id="open-mic">Open-mic</h3>
 
 Eventuali annunci di posizioni aperte, presentazioni di conferenze, o altri eventi di interesse per il gruppo, possono essere rapidamente annunciate durante l' "open-mic"
 
@@ -72,7 +64,7 @@ Sono consentite eccezioni, purché concordate preventivamente con i coordinatori
 
 Come sempre, sono bene accetti feedback in merito a queste guideline; poiché l' open mic è sopratutto utile per chi presenzia ai meeting, vi invitiamo a farceli pervenire direttamente a valle degli stessi meeting.
 
-### Videoregistrazione incontri ###
+<h3 id="videoregistrazione-incontri">Videoregistrazione incontri</h3>
 
 Solitamente videoregistriamo il talk durante gli incontri; trovate il link al video	nella pagina di ciascun meeting nell'archivio.
 
