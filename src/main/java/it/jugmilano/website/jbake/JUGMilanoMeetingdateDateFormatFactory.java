@@ -40,7 +40,7 @@ public class JUGMilanoMeetingdateDateFormatFactory extends TemplateDateFormatFac
         private final Locale it_IT;
         private final SimpleDateFormat sdf;
         private JUGMilanoMeetingdateDateFormat() {
-            it_IT = new Locale("it", "IT");
+            it_IT = Locale.of("it", "IT");
             // Giovedì 9 Novembre 2023
             sdf = new SimpleDateFormat("EEEE dd MMMM YYYY", it_IT);
         }

@@ -13,8 +13,8 @@ import it.jugmilano.website.jbake.MarkdownWithFrontmatter;
 
 /**
  * Can't use JBake-maven-plugin due to need of programmatically configure:
- * - Markdown with front-matter
- * - Additional custom config in Freemarker config
+ * - Markdown with front-matter markup engine
+ * - Additional custom config in Freemarker config template engine
  */
 public class BakeRunner {
     public static void main(String[] args) {
