@@ -18,7 +18,7 @@
                     <h2 class="post-title fadeInUp animated">${content.title}</h2>
                     <p class="date"><span>${content.meetingdate?string.@jugmilanomeetingdate}</span></p>
                 </hgroup>
-                
+
                 <div style="text-align:center"><h2>${content.description}</h2></div>
 <br/>
 L'incontro si terrà ${content.meetingdate?string.@jugmilanomeetingdate}
@@ -69,7 +69,7 @@ ${content.bio!""}
 </p>
 
       </div> <!-- #wrapper -->
- 		{% include footer.html %}
- 		{% include script.html %}
+		<#include "footer.ftl">
+		<#include "script.ftl">
  	</body>
  </html>
