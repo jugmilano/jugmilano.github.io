@@ -1,6 +1,8 @@
 package it.jugmilano.website.jbake;
 
+import java.lang.reflect.Field;
 import java.text.SimpleDateFormat;
+import java.util.List;
 import java.util.ListIterator;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -8,6 +10,14 @@ import java.util.stream.Collectors;
 import org.jbake.parser.MarkdownEngine;
 import org.jbake.parser.ParserContext;
 import org.yaml.snakeyaml.Yaml;
+
+import com.vladsch.flexmark.html.HtmlRenderer;
+import com.vladsch.flexmark.parser.Parser;
+import com.vladsch.flexmark.parser.PegdownExtensions;
+import com.vladsch.flexmark.profile.pegdown.PegdownOptionsAdapter;
+import com.vladsch.flexmark.util.ast.Document;
+import com.vladsch.flexmark.util.data.DataHolder;
+import com.vladsch.flexmark.util.data.SharedDataKeys;
 
 /**
  * This Engine process front-matter as part of JBake's DocumentModel
@@ -77,6 +87,60 @@ public class MarkdownWithFrontmatter extends MarkdownEngine {
             String body = context.getFileLines().subList(nextIndex+1, context.getFileLines().size()).stream().collect(Collectors.joining("\n"));
             context.getDocumentModel().setBody(body);
         }
-        super.processBody(context);
+        processBodyHardcodingHeaderIDs(context);
+    }
+
+    /**
+     * like super's {@link org.jbake.parser.MarkdownEngine#processBody(ParserContext)}
+     * but also enforce GENERATE_HEADER_ID, RENDER_HEADER_ID
+     */
+    public void processBodyHardcodingHeaderIDs(final ParserContext context) {
+        List<String> mdExts = context.getConfig().getMarkdownExtensions();
+
+        int extensions = PegdownExtensions.NONE;
+
+        for (String ext : mdExts) {
+            if (ext.startsWith("-")) {
+                ext = ext.substring(1);
+                extensions = removeExtension(extensions, extensionFor(ext));
+            } else {
+                if (ext.startsWith("+")) {
+                    ext = ext.substring(1);
+                }
+                extensions = addExtension(extensions, extensionFor(ext));
+            }
+        }
+
+        DataHolder options = PegdownOptionsAdapter.flexmarkOptions(extensions)
+            .toMutable()
+            .set(SharedDataKeys.GENERATE_HEADER_ID, true)
+            .set(SharedDataKeys.RENDER_HEADER_ID, true)
+            .toImmutable();
+
+        Parser parser = Parser.builder(options).build();
+        HtmlRenderer renderer = HtmlRenderer.builder(options).build();
+
+        Document document = parser.parse(context.getBody());
+        context.setBody(renderer.render(document));
+    }
+
+    private int extensionFor(String name) {
+        int extension = PegdownExtensions.NONE;
+
+        try {
+            Field extField = PegdownExtensions.class.getDeclaredField(name);
+            extension = extField.getInt(null);
+        } catch (NoSuchFieldException | IllegalAccessException e) {
+            // do nothing
+        }
+        return extension;
+    }
+
+    private int addExtension(int previousExtensions, int additionalExtension) {
+        return previousExtensions | additionalExtension;
+    }
+
+    private int removeExtension(int previousExtensions, int unwantedExtension) {
+        return previousExtensions & (~unwantedExtension);
     }
 }
