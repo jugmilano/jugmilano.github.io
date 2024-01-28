@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="JUG (JVM User Group) - Milano">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10.0">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/syntax.css">
+
+<script src="/js/vendor/modernizr-2.6.1.min.js"></script>
+<script src="/fonts/ss-social.js"></script>
+		<title>JUG Milano Meeting #145</title>
+	</head>
+	<body class="post">
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    	<div id="wrapper" class="clearfix">
+<header id="header" class="clearfix">
+	<div class="inner clearfix">
+		<a href="/"><img class="fadeInDown animated" width="35" src="/images/logo/logo_no_name.png"/></a>
+		<nav id="main-nav" class="fadeInDown animated">
+			<ul>
+	<li class="home"><a href="/">Home</a><span> / </span></li>
+	<li class="about"><a href="/#about">Chi siamo</a><span> / </span></li>
+	<li class="blog"><a href="/meetings">Meeting 🔗</a><span> / </span></li>
+	<li class="about"><a href="/faq">FAQ 🔗</a><span> / </span></li>
+	<li class="about"><a href="/calendario">Calendario 🔗</a><span> / </span></li>
+	<li class="support"><a href="/#support">Supporto</a><span> / </span></li>
+	<li class="last contact"><a href="/#contact">Contatti</a></li>
+</ul>
+		</nav>
+	</div>
+</header>    		<div id="main" class="inner">
+                <hgroup>
+                    <h2 class="post-title fadeInUp animated">JUG Milano Meeting #145</h2>
+                    <p class="date"><span>Mercoledì 31 Maggio 2023</span></p>
+                </hgroup>
+
+                <div style="text-align:center"><h2>Your Java Application Is Slow? Check Out These Open-Source Profilers</h2></div>
+
+L'incontro si è tenuto Mercoledì 31 Maggio 2023
+ presso eDreams ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
+<a target="_blank" href="https://goo.gl/maps/mYyPUpgNwAhzUJT2A">(mappa)</a>
+ in Via Gustavo Fara, 26, 20124 Milano MI
+ grazie alla co-organizzazione con eDreams ODIGEO
+.
+<br/>
+<br/>
+
+
+<p>
+<div id="miscdetails" style="text-align: justify">
+<b>
+La partecipazione in presenza è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
+<a href="https://www.eventbrite.com/e/your-java-application-is-slow-check-out-these-open-source-profilers-tickets-628401554967">form di registrazione per partecipare a JUG Milano in presenza</a>
+</b><br/>
+Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+</div>
+</p>
+
+<p>
+<div id="abstract">
+<span style="font-weight:bold">Abstract dell'intervento: </span>
+<br/>
+Profilers help to analyze performance bottlenecks of your application - if you know which to use and how to work with them.
+<br/><br/>
+There are many open-source profilers, like async-profiler or JMC. This talk will give you insights into these tools, focusing on: 
+<br/>
+1. Understanding the basic concepts of profiling like flame graphs, ...<br/>
+2. Usage of async-profiler and JMC<br/>
+3. Advantages and disadvantages of the different tools<br/>
+<br/>
+I want to make profiling easier for everyone. So what I'm mostly doing is working behind the scenes in the OpenJDK, creating a new profiling API that makes it easier to develop profiling tools. This makes it safer because we've seen that the current profiling tools use an undocumented API of the OpenJDK.
+<br/><br/>
+I'm working on the OpenJDK and a proposal for a new profiling APi. Furthermore, I worked on ap-loader, which wraps the async-profiler and on a new profiling UI that is integrated into an IntelliJ plugin - so it can profile applications directly from the IntelliJ IDE without using any commercial plugins. This UI is based on Firefox Profiler and I use it almost daily to profile and to view profiling data. 
+<br/><br/>
+My motivation for this talk and for the other talks I've given is the same as the motivation for my blog posts. I want to make profiling more accessible. Currently, I see that we have many nice profiling tools like JDK Mission Control, but we have the problem that we don't have the educative resources for this.
+<br/><br/>
+We either have resources that are really top level that say, there's this tool, or we have resources that say, you need this API. I want to bridge this gap, and in my talk I want to test this top level information, but then go deeper down into the depths of OpenJDK and show you how it's really done. I think the first thing that you need to understand is that profiling isn't magic. Profiling is just a tool in your toolbox that you can use.
+<br/><br/>
+Q: How would you describe your main persona and target audience for this session?<br/>
+A: I think that the persona would be a person that knows Java quite well. It's a person that wants to know more about profiling, that wants to get into profiling and wants to see what open source offers.
+<br/><br/>
+There's also the person that wants to go down this rabbit hole, see how it's all done, and also wants to see how they could write their own profile - to see how profilers work, because that's one of the great things in the open source world. You can just look into it, modify it and even do your own.
+<br/><br/>
+It's basically people that want to know more about profiling and want to go down and see how it really is implemented.
+<br/><br/>
+Q: Is there anything specific that you'd like people to walk away with after watching your session?<br/>
+A: That profiling isn't magic. It's just another thing in your toolbox, like debuggers.
+
+</div>
+</p>
+
+<p>
+<div id="bio">
+A cura di <span style="font-weight:bold">Johannes Bechberger:</span>
+<br/>
+Johannes Bechberger is a JVM developer working on profilers and their underlying technology in the SapMachine team at SAP. This includes improvements to async-profiler and its ecosystem, a website to view the different JFR event types, and improvements to the FirefoxProfiler, making it usable in the Java world. He started at SAP last year after two years of research studies at the KIT in the field of Java security analyses. His work today is comprised of many open-source contributions and his blog, where he writes regularly on in-depth profiling and debugging topics.
+
+</div>
+</p>
+
+      </div> <!-- #wrapper -->
+<footer id="footer" class="clearfix">
+  <p>&nbsp;</p><p>&nbsp;</p>
+  <div class="inner clearfix">
+    <div class="col col-1">
+      <nav>
+        <ul>
+          <ul>
+	<li class="home"><a href="/">Home</a><span> / </span></li>
+	<li class="about"><a href="/#about">Chi siamo</a><span> / </span></li>
+	<li class="blog"><a href="/meetings">Meeting 🔗</a><span> / </span></li>
+	<li class="about"><a href="/faq">FAQ 🔗</a><span> / </span></li>
+	<li class="about"><a href="/calendario">Calendario 🔗</a><span> / </span></li>
+	<li class="support"><a href="/#support">Supporto</a><span> / </span></li>
+	<li class="last contact"><a href="/#contact">Contatti</a></li>
+</ul>
+        </ul>
+      </nav>
+      <p class="copyright">&#169; 2017 jugmilano</p><p>&nbsp;</p>
+    </div>
+    
+    <div class="col col-2">
+<ul class="social">
+	<li><a href="https://twitter.com/jugmilano" target="_blank"><i class="ss-icon ss-social">Twitter</i></a></li>
+	<li><a href="https://github.com/jugmilano" target="_blank"><i class="ss-icon ss-social">Octocat</i></a></li>
+	<li><a href="https://www.linkedin.com/company/jugmilano" target="_blank"><i class="ss-icon ss-social">LinkedIn</i></a></li>
+	<li><a href="https://www.youtube.com/@JUGMilano/streams" target="_blank"><i class="ss-icon ss-social">YouTube</i></a></li>
+	<li><a href="/calendario" target="_blank"><i class="ss-icon ss-social">RSS</i></a></li>
+	<li><a href="https://gitter.im/jugmilano/jugmilano" target="_blank"><i class="ss-icon ss-social">share</i></a></li>
+
+<!--	<li><a href="https://www.facebook.com/" target="_blank"><i class="ss-icon ss-social">Facebook</i></a></li>
+	<li><a href="http://dribbble.com/" target="_blank"><i class="ss-icon ss-social">Dribbble</i></a></li>
+	<li><a href="mailto:" target="_blank"><i class="ss-icon ss-social">Email</i></a></li>
+	-->
+</ul>    </div>
+    <a href="#header" class="back-to-top">Back to Top</a>
+  </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+<script src="/js/vendor/jquery.fitvids.min.js"></script>
+<script src="/js/script.js"></script>
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'jugmilano/jugmilano'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+ 	</body>
+ </html>
