@@ -4,14 +4,14 @@
     <div class="col col-1">
       <nav>
         <ul>
-          {% include links.html %}
+          <#include "links.ftl">
         </ul>
       </nav>
-      <p class="copyright">&#169; 2017 {{ site.user_name }}</p><p>&nbsp;</p>
+      <p class="copyright">&#169; 2017 ${config.site_user_name}</p><p>&nbsp;</p>
     </div>
     
     <div class="col col-2">
-		{% include social.html %}
+		<#include "social.ftl">
     </div>
     <a href="#header" class="back-to-top">Back to Top</a>
   </div>

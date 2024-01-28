@@ -57,7 +57,7 @@ video:
 code:
 ```
 I campi hanno questi valori/formati:
-  * `layout` può avere valore `old_meeting` oppure `new_meeting`; dopo che il meeting è stato tenuto, il valore va spostato da `new_meeting` a `old_meeting`, il ché significa che il template utilizzato per visualizzarlo passerà da `_layouts/new_meeting.html` a `_layouts/old_meeting.html`.
+  * `layout` può avere valore `old_generic` oppure `new_generic`; dopo che il meeting è stato tenuto, il valore va spostato da `new_generic` a `old_generic`, il ché significa che il template utilizzato per visualizzarlo passerà da `templates/new_generic.flt` a `templates/old_generic.ftl`.
   * `uid` contiene l'identificativo del meeting, nella forma `meeting##` dove il caratter '#' è un numero. Era stato introdotto per testare l'integrazione e generazione dei vCal direttamente con Jekyll, ma attualmente non viene usato per altri scopi e non è mandatory.
   * `title` contiene la scritta che verrà visualizzata in alto sopra il tito del meeting nella pagina di dettaglio del meeting
   * `date` deve essere uguale alla date del nome del file, e quindi la data di creazione del file del nuovo meeting (perché Jekyll dalla versione 3 non permette di visualizzare post che abbiano data antecedente alla data corrente)
@@ -74,25 +74,17 @@ I campi hanno questi valori/formati:
   * `video` l'URL del video della registrazione
   * `code` il link al repository dei sorgenti del codice utilizzato/visualizzato nell'intervento
 
-**Nessuno dei valori di questi campi può contenere il carattere ':', che è un carattere riservato di Jekyll.**
+**Nessuno dei valori di questi campi può contenere il carattere ':', che è un carattere riservato di Jekyll.** ma si può usare dentro una string-literal nello YAML.
 
 ### Testing del nuovo incontro
-Lanciando in locale jekyll (versione 3) col comando
-
-```
-jekyll serve
-```
-
-si può testare in locale (su http://127.0.0.1:4000) il rendering del nuovo incontro.
+Vedi README.md nella root di questo repositori per l'esecuzione del rendering del sito in locale.
 
 Quando il rendering è completo, si può pushare sul repo e nel giro di pochi secondi il nuovo meeting sarà visualizzato sul sito http://www.jugmilano.it .
 
-## Attivazione form di registrazione
-La registrazione utilizza il servizio [https://formspree.io/](https://formspree.io/), che va attivato per ogni nuovo meeting.
-
-Una volta pubblicato il nuovo meeting sul sito, bisogna perfezionare l'invio della mail per l'iscrizione; aprendo la pagina del meeting e premendo il bottone "Invia" per iscriversi, comparirà una pagina che notifica l'invio di una mail all'indirizzo `info@jugmilano.it` che contiene un link per sbloccare il meccanismo di invio; non appena si cliccherà il link contenuto nella mail, il form di registrazione funzionerà correttamente.
 
 ## Mail alla ML
+
+Si può fare riferimento all'ultima email di announce sulla mailing list.
 
 La mail alla mailing list ha solitamente questo formato:
 
@@ -128,13 +120,11 @@ In questo momento è il mio indirizzo a essere associato al calendario di MTS, p
 Attualmente è associato a ciascun account google personale.
 
 ### Calendario jugmilano
-Sto segnando gli appuntamenti sul calendario della GTS, il calendario pubblico che se non erro era pubblicizzato sul vecchio wiki.
-
-### Gitter
-Abbiamo una chat su https://gitter.im/jugmilano/jugmilano
+Sto segnando gli appuntamenti su un calendario pubblico ad-hoc.
 
 ### Facebook (sperimentale)
-In via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note"
+Una pagina Facebook era stata create via sperimentale ed in seguito a feedback ricevuti durante il boot a Codemotion, ho aperto una pagina su Facebook per il JUG Milano e sto inserendo i vari announce, similmente a LinkedIn, come "note".
+Ora contiene un ["pinned" post](https://www.facebook.com/JUGMilano/posts/pfbid0TzNjk8VbsKrqDZjBAda3W2t51W7wTvXHgdmcQRteb3GK4RtG7oFGWdYev5TjjgAzl) che invita a far riferimento al sito/mailing-list/canale youtube.
 
 ### Eventbrite
 Abbiamo iniziato ad usare con forti ritorni positivi Eventbrite ancor prima del dilagare del human malware del 2020.
@@ -147,5 +137,5 @@ e rilanciati nella loro newsletter.
 Per aprire un evento si usa il pannello di gestione: https://my.codemotion.com/#/communities#management
 
 ## Aggiornamento del sito dopo l'incontro
-Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_meeting` a `old_meeting`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
+Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_generic` a `old_generic`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
 

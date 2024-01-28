@@ -10,3 +10,6 @@
 _site
 .jekyll-cache/
 Gemfile*
+.ruby-version
+target
+.vscode
