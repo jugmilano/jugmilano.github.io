@@ -1,2 +1,2 @@
-assets/* -linguist-detectable
-old/* -linguist-detectable
+assets/* linguist-vendored
+old/* linguist-vendored
