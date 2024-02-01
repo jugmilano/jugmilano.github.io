@@ -20,7 +20,7 @@ code:
 miscdetails: |
     <b>
     La partecipazione in presenza è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
-    <a href="https://www.eventbrite.com/e/intro-to-probabilistic-data-structures-tickets-800222275367?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
+    <a href="https://www.eventbrite.it/e/game-of-loom-2-life-and-deadlock-of-a-virtual-thread-tickets-818766100447?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
 ---
