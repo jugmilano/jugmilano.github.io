@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="JUG (JVM User Group) - Milano">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=10.0">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/syntax.css">
+
+<script src="/js/vendor/modernizr-2.6.1.min.js"></script>
+<script src="/fonts/ss-social.js"></script>
+		<title>JUG Milano Meeting #152 | Game of Loom 2: life and dead(lock) of a virtual thread</title>
+	</head>
+	<body class="post">
+		<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+        <![endif]-->
+    	<div id="wrapper" class="clearfix">
+<header id="header" class="clearfix">
+	<div class="inner clearfix">
+		<a href="/"><img class="fadeInDown animated" width="35" src="/images/logo/logo_no_name.png"/></a>
+		<nav id="main-nav" class="fadeInDown animated">
+			<ul>
+	<li class="home"><a href="/">Home</a><span> / </span></li>
+	<li class="about"><a href="/#about">Chi siamo</a><span> / </span></li>
+	<li class="blog"><a href="/meetings">Meeting 🔗</a><span> / </span></li>
+	<li class="about"><a href="/faq">FAQ 🔗</a><span> / </span></li>
+	<li class="about"><a href="/calendario">Calendario 🔗</a><span> / </span></li>
+	<li class="support"><a href="/#support">Supporto</a><span> / </span></li>
+	<li class="last contact"><a href="/#contact">Contatti</a></li>
+</ul>
+		</nav>
+	</div>
+</header>    		<div id="main" class="inner">
+                <hgroup>
+                    <h2 class="post-title fadeInUp animated">JUG Milano Meeting #152</h2>
+                    <p class="date"><span>Giovedì 29 Febbraio 2024</span></p>
+                </hgroup>
+
+                <div style="text-align:center"><h2>Game of Loom 2: life and dead(lock) of a virtual thread</h2></div>
+<br/>
+L'incontro si terrà Giovedì 29 Febbraio 2024
+ presso eDreams ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
+<a target="_blank" href="https://goo.gl/maps/oBfwjGvLsG7XgDdq8">(mappa)</a>
+ in Via Gustavo Fara, 26, 20124 Milano MI
+ grazie alla co-organizzazione con eDreams ODIGEO
+.
+<br/>
+
+
+<!-- here was formspree -->
+
+<p>
+<div id="miscdetails" style="text-align: justify">
+<b>
+La partecipazione in presenza è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
+<a href="https://www.eventbrite.com/e/intro-to-probabilistic-data-structures-tickets-800222275367?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
+</b><br/>
+Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+</div>
+</p>
+
+<p>
+<div id="abstract">
+<span style="font-weight:bold">Abstract dell'intervento: </span>
+<br/>
+Virtual threads finally exited their development and preview phases and with JVM 21 are available as a stable and supported Java feature. During the latest Devoxx edition I started exploring the characteristics of virtual threads and their performance implications putting them at work, with a funny but practical example, using a Conway's Game of Life implementation based on Project Loom. Starting from the same playground this time we will explore more in depth the internal implementation details of virtual threads, trying to answer to some interesting questions. What does it mean in practice that virtual threads aren't preemptive? Are scoped values enough to replace ThreadLocals in all possible scenarios? What does it happen if you try to replace the fork/join pool, used as default carrier thread pool, with something different? At the end we will conclude this exploration trying to experience the multithreaded programming equivalent of the sound of one hand clapping or how virtual threads make it possible to cause a deadlock using one single lock.
+
+</div>
+</p>
+
+<p>
+<div id="bio">
+A cura di <span style="font-weight:bold">Mario Fusco:</span>
+<br/>
+Mario is a senior principal software engineer at Red Hat working as Drools project lead. Among his interests there are also functional programming and Domain Specific Languages. He is also a Java Champion, the JUG Milano coordinator, a frequent speaker and the co-author of "Modern Java in Action" published by Manning.
+
+</div>
+</p>
+
+      </div> <!-- #wrapper -->
+<footer id="footer" class="clearfix">
+  <p>&nbsp;</p><p>&nbsp;</p>
+  <div class="inner clearfix">
+    <div class="col col-1">
+      <nav>
+        <ul>
+          <ul>
+	<li class="home"><a href="/">Home</a><span> / </span></li>
+	<li class="about"><a href="/#about">Chi siamo</a><span> / </span></li>
+	<li class="blog"><a href="/meetings">Meeting 🔗</a><span> / </span></li>
+	<li class="about"><a href="/faq">FAQ 🔗</a><span> / </span></li>
+	<li class="about"><a href="/calendario">Calendario 🔗</a><span> / </span></li>
+	<li class="support"><a href="/#support">Supporto</a><span> / </span></li>
+	<li class="last contact"><a href="/#contact">Contatti</a></li>
+</ul>
+        </ul>
+      </nav>
+      <p class="copyright">&#169; 2017 jugmilano</p><p>&nbsp;</p>
+    </div>
+    
+    <div class="col col-2">
+<ul class="social">
+	<li><a href="https://twitter.com/jugmilano" target="_blank"><i class="ss-icon ss-social">Twitter</i></a></li>
+	<li><a href="https://github.com/jugmilano" target="_blank"><i class="ss-icon ss-social">Octocat</i></a></li>
+	<li><a href="https://www.linkedin.com/company/jugmilano" target="_blank"><i class="ss-icon ss-social">LinkedIn</i></a></li>
+	<li><a href="https://www.youtube.com/@JUGMilano/streams" target="_blank"><i class="ss-icon ss-social">YouTube</i></a></li>
+	<li><a href="/calendario" target="_blank"><i class="ss-icon ss-social">RSS</i></a></li>
+	<li><a href="https://gitter.im/jugmilano/jugmilano" target="_blank"><i class="ss-icon ss-social">share</i></a></li>
+
+<!--	<li><a href="https://www.facebook.com/" target="_blank"><i class="ss-icon ss-social">Facebook</i></a></li>
+	<li><a href="http://dribbble.com/" target="_blank"><i class="ss-icon ss-social">Dribbble</i></a></li>
+	<li><a href="mailto:" target="_blank"><i class="ss-icon ss-social">Email</i></a></li>
+	-->
+</ul>    </div>
+    <a href="#header" class="back-to-top">Back to Top</a>
+  </div>
+</footer>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.8.1.min.js"><\/script>')</script>
+<script src="/js/vendor/jquery.fitvids.min.js"></script>
+<script src="/js/script.js"></script>
+
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'jugmilano/jugmilano'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+ 	</body>
+ </html>
