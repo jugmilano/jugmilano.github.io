@@ -3,12 +3,15 @@ JUG Milano website
 
 This is the website of JVM User Group Milano.
 
+> [!IMPORTANT]  
+> Per le procedure, processi per l'organizzazione dei talks, meetings fare riferimento alla guida [new_meeting_instructions.md](/misc/new_meeting_instructions.md).
+
 ## Build website
 
 Maven-based build of JBake extensions, and programmatic website generation.
 
 ``` 
-mvn clean compile exec:java
+mvn clean compile test exec:java
 ```
 
 ## Preview website locally

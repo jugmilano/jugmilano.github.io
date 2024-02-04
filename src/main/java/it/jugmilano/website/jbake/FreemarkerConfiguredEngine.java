@@ -3,6 +3,7 @@ package it.jugmilano.website.jbake;
 import java.io.IOException;
 import java.io.Writer;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import org.jbake.app.ContentStore;
@@ -15,6 +16,9 @@ import freemarker.core.TemplateDateFormatFactory;
 import freemarker.template.Configuration;
 import freemarker.template.Template;
 import freemarker.template.TemplateException;
+import freemarker.template.TemplateMethodModel;
+import freemarker.template.TemplateModelException;
+import it.jugmilano.website.utils.AsPlainText;
 
 /**
  * Customized FreemarkerTemplateEngine to override FreeMarker configuration with additional settings.
@@ -44,6 +48,13 @@ public class FreemarkerConfiguredEngine extends FreemarkerTemplateEngine {
         Map<String, TemplateDateFormatFactory> customDateFormats = new HashMap<>();
         customDateFormats.put("jugmilanomeetingdate", JUGMilanoMeetingdateDateFormatFactory.INSTANCE);
         templateCfg.setCustomDateFormats(customDateFormats);
+
+        templateCfg.setSharedVariable("asPlainText", new TemplateMethodModel() {
+            @Override
+            public Object exec(List arguments) throws TemplateModelException {
+                return AsPlainText.asPlainText((String) arguments.get(0)); // TemplateMethodModel args are String coerced by FTL
+            }
+        });
     }
 
     @Override

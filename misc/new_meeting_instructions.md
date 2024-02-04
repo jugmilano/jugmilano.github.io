@@ -1,15 +1,11 @@
 # Istruzioni per l'organizzazione di un nuovo meeting
 
-Per definire la data del meeting, bisogna fare riferimento al calendario dello spazio Venini 42:
+Per definire la data del meeting, fare riferimento alle procedure definite per la Sede ospitante e fare riferimento a JUG Admins.
 
-[http://meeting.venini42.it/venini42](http://meeting.venini42.it/venini42)
-
-Quando la proposta di un relatore viene accettata, bisogna chiedere al relatore di fornire titolo e abstract dell'intervento oltre a una sua breve bio.
+Quando la proposta di un talk viene accettata, bisogna chiedere al relatore di fornire **Titolo** e **Abstract** dell'intervento oltre a una sua breve **Bio**.
 Per pubblicare l'evento bisogna:
-  * verificare libro Manning sull'argomento
   * creare la pagina relativa al meeting sul sito www.jugmilano.it
-  * attivare il form di registrazione
-  * mandare una mail alla mailing list it-milano-java-jug@yahoogroups.com
+  * mandare una mail sulla Mailing-List del JUG Milano
   * pubblicizzare l'evento su
      * Twitter
      * Linkedin
@@ -29,9 +25,6 @@ Per info, scrivere a usergroup@manning.com una mail tipo questa:
     for the participants of the meeting.
 
     Thanks in advance and regards,
-
-
-
 
 ## Creazione nuovo meeting sul sito
 Per creare un nuovo meeting sul sito, è necessario creare un nuovo file nella directory /_posts del repository github del nostro sito. Il nome del file ha formato YYYY-MM-DD-meeting-NN.md, dove i placeholder Y, M e D hanno i soliti valori e N indica il numero del meeting: **la data nel nome file dev'essere quella di creazione del file e non del meeting**.
@@ -81,10 +74,15 @@ Vedi README.md nella root di questo repositori per l'esecuzione del rendering de
 
 Quando il rendering è completo, si può pushare sul repo e nel giro di pochi secondi il nuovo meeting sarà visualizzato sul sito http://www.jugmilano.it .
 
+## Bozza autogenerata per la Mailing-List, Socials, etc
+
+Il template dei nuovi meeting genera nel HTML finale un DIV nascosto che se messo visibile nel browser (tasto dx, inspect, modifica) contiene
+diverse utili bozze per l'utilizzo in mailing-list, per i social, etc.
+Questo perché più che automazione completa, ho trovato utile avere una traccia pronta per le comunicazioni.
 
 ## Mail alla ML
 
-Si può fare riferimento all'ultima email di announce sulla mailing list.
+In alternativa all'uso della bozza autogenerata di cui sopra, si può fare riferimento all'ultima email di announce sulla mailing list.
 
 La mail alla mailing list ha solitamente questo formato:
 

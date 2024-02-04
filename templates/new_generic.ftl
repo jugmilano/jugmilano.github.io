@@ -68,6 +68,52 @@ ${content.bio!""}
 </div>
 </p>
 
+<div style="display: none;">
+
+<!-- email pro-forma -->
+<div>
+<pre>
+[ANNOUNCE] ${content.title} - ${content.description}
+
+Ciao a tutti,
+
+Siamo lieti di annunciare che un nuovo incontro del JUG Milano si terrà in modalità ibrida, ${content.meetingdate?string.@jugmilanomeetingdate}.
+
+${asPlainText(content.miscdetails)}
+
+Questo il programma:
+h 18:45 - JUG news e attività in corso
+h 19:00 - "${content.description}", a cura di ${content.speaker!""}
+h ~20:30 - Chiusura lavori, varie ed eventuali
+
+Iscriviti al canale YouTube di JUG Milano https://www.youtube.com/c/JUGMilano e JUG Torino https://www.youtube.com/c/JUGTorino e clicca la campanella su YouTube: riceverai notifica direttamente da YouTube quando saremo live!
+
+Potete trovare maggiori dettagli, direttamente sul nostro sito:
+http://www.jugmilano.it/${content.uri}
+
+Vi aspettiamo!
+ - JUG Milano staff
+<pre>
+</div>
+<hr />
+<!-- social pro-forma -->
+<div>
+<pre>
+🗓️ ${content.meetingdate?string.@jugmilanomeetingdate}
+👉 "${content.description}" in presenza e YouTube live!
+🙏 presenta ${content.speaker!""}
+
+Hybrid mode:
+🚨 per partecipare in presenza è richiesto questo form:
+${asPlainText(content.miscdetails)}
+
+⚠️
+Dettagli: http://www.jugmilano.it/${content.uri}
+<pre>
+</div>
+
+</div>
+
       </div> <!-- #wrapper -->
 		<#include "footer.ftl">
 		<#include "script.ftl">
