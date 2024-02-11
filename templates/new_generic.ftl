@@ -86,7 +86,7 @@ h 18:45 - JUG news e attività in corso
 h 19:00 - "${content.description}", a cura di ${content.speaker!""}
 h ~20:30 - Chiusura lavori, varie ed eventuali
 
-Iscriviti al canale YouTube di JUG Milano https://www.youtube.com/c/JUGMilano e JUG Torino https://www.youtube.com/c/JUGTorino e clicca la campanella su YouTube: riceverai notifica direttamente da YouTube quando saremo live!
+Iscriviti al canale YouTube di JUG Milano https://www.youtube.com/@JUGMilano/streams e JUG Torino https://www.youtube.com/@JUGTorino/streams e clicca la campanella su YouTube: riceverai notifica direttamente da YouTube quando saremo live!
 
 Potete trovare maggiori dettagli, direttamente sul nostro sito:
 http://www.jugmilano.it/${content.uri}
