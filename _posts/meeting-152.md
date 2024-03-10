@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting152
 title: "JUG Milano Meeting #152"
 date: 2024-02-01 00:00
