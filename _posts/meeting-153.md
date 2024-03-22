@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting153
 title: "JUG Milano Meeting #153"
 date: 2024-03-10 00:00
@@ -17,7 +17,7 @@ address: Via Gustavo Fara, 26, 20124 Milano MI
 map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
 slides: 
 video: 
-code:
+code: https://github.com/freedev/quarkus-smallrye-reactive-messaging-example
 miscdetails: |
     <b>
     La partecipazione in presenza è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
