@@ -3,7 +3,7 @@ layout: new_generic
 uid: meeting154
 title: "JUG Milano Meeting #154"
 date: 2024-04-05 00:00
-meetingdate: 2024-05-13
+meetingdate: 2024-06-13
 description: "Migrare da Spring A Quarkus senza mal di test"
 speaker: "Lorenzo De Francesco"
 abstract: |
