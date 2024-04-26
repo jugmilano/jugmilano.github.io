@@ -29,5 +29,4 @@ miscdetails: |
     La partecipazione in presenza è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/usare-la-programmazione-funzionale-e-divertente-tickets-891822273427?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
-    Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
 ---
