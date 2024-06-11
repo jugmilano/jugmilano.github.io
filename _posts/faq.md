@@ -60,6 +60,7 @@ Eventuali annunci di posizioni aperte, presentazioni di conferenze, o altri even
 - vi consigliamo di rimanere a disposizione per eventuali domande di persona, al termine del incontro
 - il numero massimo di sessioni/annunci durante l' open-mic per ciascun evento, è gestito a discrezione dei coordinatori del gruppo
 
+Per alcune tipologie di incontri (online/in presenza/...) o in alcune sedi, potrebbero essere previste ulteriori linee guida da dover rispettare.
 Sono consentite eccezioni, purché concordate preventivamente con i coordinatori del gruppo.
 
 Come sempre, sono bene accetti feedback in merito a queste guideline; poiché l' open mic è sopratutto utile per chi presenzia ai meeting, vi invitiamo a farceli pervenire direttamente a valle degli stessi meeting.
