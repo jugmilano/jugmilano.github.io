@@ -137,3 +137,6 @@ Per aprire un evento si usa il pannello di gestione: https://my.codemotion.com/#
 ## Aggiornamento del sito dopo l'incontro
 Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `layout` del file dell'incontro da `new_generic` a `old_generic`. Inoltre, se disponibili, vanno aggiunti anche i riferimenti alle slide, al sorgente e al video dell'intervento.
 
+## Helpful tools
+- https://tarilabs.github.io/goraffle
+- https://tarilabs.github.io/simplemustache/?url=https://raw.githubusercontent.com/jugmilano/jugmilano.github.io/master/misc/raffle-template.mustache
