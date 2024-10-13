@@ -27,8 +27,5 @@ miscdetails: |
     <br/><br/>
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/modern-web-development-with-java-vaadin-24-in-practice-tickets-1046368966747?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
-    Qualche ora prima dell'evento riceverete un invito da un sistema di ticketing diverso da eventbrite per confermare l'accesso all'edificio.
-    <br/><br/>
-    Il ticket di eventbrite NON da' accesso all'edificio, ma ci serve unicamente per tenere traccia ordinata delle email e cap-pare chi interessato a partecipare in presenza.
     </b><br/>
 ---
