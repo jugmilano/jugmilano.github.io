@@ -3,7 +3,7 @@ layout: new_generic
 uid: meeting161
 title: "JUG Milano Meeting #161"
 date: 2025-02-02 00:00
-meetingdate: 2024-02-20
+meetingdate: 2025-02-20
 description: "An accidental conspiracy: how your load generator is lying to you"
 speaker: "Andrea Lamparelli"
 abstract: |
