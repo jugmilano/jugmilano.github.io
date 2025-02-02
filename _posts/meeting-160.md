@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting160
 title: "JUG Milano Meeting #160"
 date: 2024-11-28 00:00
@@ -25,9 +25,9 @@ thanks: |
     For this event, we collaborated with Tech Talks by eDreams ODIGEO, a series of free conferences dedicated to showing the use of disruptive technology in the transformation of travel.<br/>eDreams ODIGEO, is the world’s leading travel subscription platform and one of the largest e-commerce businesses in Europe. Tech Talks happens in 6 locations across 3 countries, where the eDreams ODIGEO Tech Labs are based: Madrid, Mallorca, Alicante, Milan and Porto.
 address: Via Gustavo Fara, 26, 20124 Milano MI
 map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
-slides: 
+slides: https://optazen.com/OptaZEN-Timefold-JUG-Milano.pdf
 video: 
-code:
+code: https://github.com/simontiffert/cafe-scheduling
 miscdetails: |
     <b>
     Evento ibrido online ed in presenza.
