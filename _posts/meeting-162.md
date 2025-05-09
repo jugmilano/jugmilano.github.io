@@ -28,7 +28,7 @@ bio: |
     for projects like WildFly (JBoss EAP) and Quarkus, while maintaining
     compatibility with major relational database vendors.
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
-thanks: 
+thanks:  
 address: Via Gustavo Fara, 26, 20124 Milano MI
 map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
 slides: 
