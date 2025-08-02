@@ -21,7 +21,6 @@ miscdetails: |
     <b>
     Evento ibrido online ed in presenza.
     <br/><br/>
-    La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
-    <a href="https://www.eventbrite.com/e/hibernate-orm-the-modern-objectrelational-mapping-framework-for-java-tickets-1360723734319?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
+    La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su EventBrite. A breve sara' disponibile il link per farlo.
     </b><br/>
 ---
