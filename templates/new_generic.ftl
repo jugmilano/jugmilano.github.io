@@ -57,14 +57,6 @@ ${content.abstract!""}
 </p>
 
 <p>
-<div id="abstract">
-<span style="font-weight:bold">Abstract dell'intervento: </span>
-<br/>
-${content.abstract!""}
-</div>
-</p>
-
-<p>
 <div id="bio">
 A cura di <span style="font-weight:bold">${content.speaker!""}:</span>
 <br/>
