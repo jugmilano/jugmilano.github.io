@@ -64,6 +64,14 @@ ${content.bio!""}
 </div>
 </p>
 
+
+<p>
+<p>
+<div>Al termine dell'incontro, per chi lo desidera, andremo a mangiare qualcosa tutti insieme.</div>
+</p>
+</p>
+
+
 <div style="display: none;">
 
 <!-- email pro-forma -->
