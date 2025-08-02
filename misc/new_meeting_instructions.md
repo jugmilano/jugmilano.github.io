@@ -39,6 +39,7 @@ date: YYYY-MM-DD 00:00
 meetingdate: YYYY-MM-DD
 description: foo
 speaker: bar
+language: italiano|inglese
 abstract: foobar
 bio: barfoo
 location: lo Spazio Venini42
@@ -57,7 +58,8 @@ I campi hanno questi valori/formati:
   * `meetingdate` è la data in cui si terrà il meeting
   * `description` è il titolo dell'intervento
   * `speaker` è il nome (o i nomi nel caso ci sia più di un relatore) dello speaker
-  * `abstract` è l'absrtact dell'intervento
+  * `language`  è la lingua in cui lo speaker parlerà (tipicamente italiano o inglese)
+  * `abstract` è l'abstract dell'intervento
   * `bio` è la bio del relatore; nel caso ci sia più di un relatore, si usa dell'HTML nella bio per separare le bio di ogni relatore (si veda il [meeting89](https://raw.githubusercontent.com/jugmilano/jugmilano.github.io/master/_posts/2017-03-01-meeting-89.md) per un esempio)
   * `location` si può copincollare dal meeting precedente (a meno che non si sia cambiata sede dell'incontro)
   * `thanks` si può copincollare dal meeting precedente (a meno che non si sia cambiata sede dell'incontro)
