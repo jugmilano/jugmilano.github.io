@@ -44,13 +44,17 @@ L'incontro si terrà ${content.meetingdate?string.@jugmilanomeetingdate}
 
 <!-- here was formspree -->
 
-<#if content.miscdetails??>
 <p>
-<div id="miscdetails" style="text-align: justify">
-${content.miscdetails}
+<div>Il talk sarà in ${content.language}.</div>
+</p>
+
+<p>
+<div id="abstract">
+<span style="font-weight:bold">Abstract dell'intervento: </span>
+<br/>
+${content.abstract!""}
 </div>
 </p>
-</#if>
 
 <p>
 <div id="abstract">
