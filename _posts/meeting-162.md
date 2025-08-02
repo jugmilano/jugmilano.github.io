@@ -32,7 +32,7 @@ thanks:
 address: Via Gustavo Fara, 26, 20124 Milano MI
 map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
 slides: 
-video: 
+video: https://www.youtube.com/watch?v=6vTZy2YmP2c
 code:
 miscdetails: |
     <b>
