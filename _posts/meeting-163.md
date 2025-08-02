@@ -17,6 +17,7 @@ map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
 slides: 
 video: 
 code:
+language: italiano
 miscdetails: |
     <b>
     Evento ibrido online ed in presenza.
