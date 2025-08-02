@@ -7,7 +7,7 @@
           <#include "links.ftl">
         </ul>
       </nav>
-      <p class="copyright">&#169; 2017 ${config.site_user_name}</p><p>&nbsp;</p>
+      <p class="copyright">&#169;  {{ site.time | date: '%Y' }}  ${config.site_user_name}</p><p>&nbsp;</p>
     </div>
     
     <div class="col col-2">
