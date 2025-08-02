@@ -13,7 +13,7 @@ bio: |
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
 thanks:  
 address: Via Gustavo Fara, 26, 20124 Milano MI
-map: "https://goo.gl/maps/oBfwjGvLsG7XgDdq8"
+map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66"
 slides: 
 video: 
 code:
