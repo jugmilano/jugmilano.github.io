@@ -24,6 +24,5 @@ miscdetails: |
     <br/><br/>
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/from-iso8583-to-bytecode-building-a-payment-api-gateway-with-quarkus-tickets-1677139010929?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
-    La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su EventBrite. A breve sara' disponibile il link per farlo.
     </b><br/>
 ---
