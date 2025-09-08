@@ -48,6 +48,14 @@ L'incontro si terrà ${content.meetingdate?string.@jugmilanomeetingdate}
 <div>Il talk sarà in ${content.language}.</div>
 </p>
 
+<#if content.miscdetails??>
+<p>
+<div id="miscdetails" style="text-align: justify">
+${content.miscdetails}
+</div>
+</p>
+</#if>
+
 <p>
 <div id="abstract">
 <span style="font-weight:bold">Abstract dell'intervento: </span>
