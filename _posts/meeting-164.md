@@ -2,7 +2,7 @@
 layout: new_generic
 uid: meeting164
 title: "JUG Milano Meeting #164"
-date: 2025-10-12 00:00
+date: 2025-10-13 00:00
 meetingdate: 2025-10-23
 description: "Let AI Tune Your JVM: Autonomous Performance for Java App"
 speaker: "Stefano Doni"
