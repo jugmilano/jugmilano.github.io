@@ -1,4 +1,4 @@
----
+''---
 layout: new_generic
 uid: meeting165
 title: "JUG Milano Meeting #165"
@@ -12,7 +12,7 @@ These patterns demonstrate the coordination and integration of multiple AI servi
 Testing these Agentic Systems architectures is a big challenge for the adoption in mission critical scenarios. This is mainly due to their not completely deterministic nature. 
 The goal of this talk is to give a theoretical overview of Agentic AI in general and these patterns in particular. We will discuss their differences and range of applicability and show with practical examples how they can be easily implemented and tested. We’ll use Quarkus and its LangChain4j extension, but the concepts are universal."
 bio: "Mario is a senior principal software engineer at IBM working as Drools project lead. Among his interests there are also high performance systems and generative AI, being an active contributor of widely adopted projects like Quarkus and LangChain4j. 
-He is also a Java Champion, the JUG Milano coordinator, a frequent speaker and the co-author of "Modern Java in Action" published by Manning."
+He is also a Java Champion, the JUG Milano coordinator, a frequent speaker and the co-author of 'Modern Java in Action' published by Manning."
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
 thanks:  
 address: Via Gustavo Fara, 26, 20124 Milano MI
