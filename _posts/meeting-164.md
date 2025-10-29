@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting164
 title: "JUG Milano Meeting #164"
 date: 2025-10-13 00:00
@@ -16,7 +16,7 @@ thanks:
 address: Via Gustavo Fara, 26, 20124 Milano MI
 map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66"
 slides: 
-video: 
+video: https://www.youtube.com/watch?v=iyvzqT37jaE
 code:
 language: italiano
 miscdetails: |
