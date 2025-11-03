@@ -26,6 +26,6 @@ miscdetails: |
     Evento solo in presenza.
     <br/><br/>
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
-    <a href="https://www.eventbrite.com/">form di registrazione per partecipare a JUG Milano in presenza</a>
+    <a href="https://www.eventbrite.com/e/agentic-ai-patterns-with-quarkus-tickets-1956552474119?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
 ---
