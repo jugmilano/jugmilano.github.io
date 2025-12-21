@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting166
 title: "JUG Milano Meeting #166"
 date: 2025-11-25 00:00
@@ -16,7 +16,7 @@ thanks:
 address: Piazza Fidia, 1, 20159 Milano MI
 map: "https://maps.app.goo.gl/joGCg2nCnc8tmZNa6"
 slides: 
-video: 
+video:"https://www.youtube.com/watch?v=MdSgBgIZLgo" 
 code:
 language: italiano
 miscdetails: |
