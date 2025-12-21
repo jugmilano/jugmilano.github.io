@@ -21,9 +21,10 @@ address: Via Gustavo Fara, 26, 20124 Milano MI - ATTENZIONE causa lavori entrare
 map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66" 
 slides: 
 video: 
-code: "https://github.com/jugmilano/jugmilano.github.io/blob/master/assets/images/RH-map.jpg"
+code: 
 language: italiano
 miscdetails: |
+    <a href="https://github.com/jugmilano/jugmilano.github.io/blob/master/assets/images/RH-map.jpg"></a>
     <b>
     Evento ibrido online ed in presenza.
     <br/><br/>
