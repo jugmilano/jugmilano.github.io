@@ -17,11 +17,11 @@ He have worked at UniCredit Bank’s R&D department; at Red Hat he worked on Dro
 He is currently back at Red Hat in the AI department, working on LLM-D."
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
 thanks:  
-address: Via Gustavo Fara, 26, 20124 Milano MI - ATTENZIONE causa lavori entrare dalla porta di servizio del RETRO del palazzo di Via Fara 26
+address: Via Gustavo Fara, 26, 20124 Milano MI - ATTENZIONE causa lavori entrare dalla porta di servizio del RETRO del palazzo di Via Fara 26. "https://github.com/jugmilano/jugmilano.github.io/blob/master/assets/images/RH-map.jpg"
 map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66"
 slides: 
 video: 
-code:
+code: 
 language: italiano
 miscdetails: |
     <b>
