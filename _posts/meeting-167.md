@@ -13,7 +13,7 @@ In this talk, we'll explore our journey writing a new Android backend for the Ch
 We'll also discover the surprising similarities between these VMs and how to exploit them: did you know that the ART VM can be started like a regular JVM?
 Through practical examples and live demonstrations, this tale of three bytecodes will give you a unique perspective on how different runtimes really work under the hood."
 bio: "Edoardo is a Principal Machine Learning Engineer at Red Hat. During his PhD he researched language design and implementation at University of Milan. 
-He have worked at UniCredit Bank’s R&D department; at Red Hat he worked on Drools and Kogito; he joined Tetrate as a core team member of the wazero WebAssembly runtime, and at Dylibso he contributed to both Chicory and wazero. 
+He has worked at UniCredit Bank’s R&D department; at Red Hat he worked on Drools and Kogito; he joined Tetrate as a core team member of the wazero WebAssembly runtime, and at Dylibso he contributed to both Chicory and wazero. 
 He is currently back at Red Hat in the AI department, working on LLM-D."
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
 thanks:  
