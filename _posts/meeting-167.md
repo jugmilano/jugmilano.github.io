@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting167
 title: "JUG Milano Meeting #167"
 date: 2025-12-21 00:00
@@ -20,7 +20,7 @@ thanks:
 address: Via Gustavo Fara, 26, 20124 Milano MI - ATTENZIONE causa lavori entrare dalla porta di servizio del RETRO del palazzo di Via Fara 26, <a href="https://raw.githubusercontent.com/jugmilano/jugmilano.github.io/b5e3755aaf873eb0268edcea3d23981511e97e86/assets/images/RH-map.jpg">ecco la mappa dei lavori in corso</a>
 map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66" 
 slides: 
-video: 
+video: "https://www.youtube.com/watch?v=u3s6Om1XinY"
 code: 
 language: italiano
 miscdetails: |
