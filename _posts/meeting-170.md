@@ -2,7 +2,7 @@
 layout: new_meeting
 uid: meeting170
 title: "JUG Milano Meeting #170"
-date: 2026-03-31 00:00
+date: 2026-04-02 00:00
 meetingdate: 2026-04-14
 description: "Scripting on the JVM with Java, Scala, and Kotlin"
 speaker: "Haoyi Li"
