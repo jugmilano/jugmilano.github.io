@@ -1,7 +1,7 @@
 ---
 layout: new_meeting
-uid: meeting171
-title: "JUG Milano Meeting #171"
+uid: meeting170
+title: "JUG Milano Meeting #170"
 date: 2026-04-06 00:00
 meetingdate: 2026-04-14
 description: "Scripting on the JVM with Java, Scala, and Kotlin"
