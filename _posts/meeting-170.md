@@ -1,5 +1,5 @@
 ---
-layout: new_meeting
+layout: new_generic
 uid: meeting170
 title: "JUG Milano Meeting #170"
 date: 2026-04-02 00:00
@@ -23,4 +23,4 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
---- 
+---
