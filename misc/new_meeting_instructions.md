@@ -141,4 +141,5 @@ Dopo che il meeting si è tenuto, bisogna ricordarsi di modificare il campo `lay
 
 ## Helpful tools
 - https://tarilabs.github.io/goraffle
+  - oppure https://tarilabs.github.io/pyraffle/
 - https://tarilabs.github.io/simplemustache/?url=https://raw.githubusercontent.com/jugmilano/jugmilano.github.io/master/misc/raffle-template.mustache
