@@ -13,7 +13,7 @@ thanks:
 address: Piazza Fidia, 1, 20159 Milano MI
 map: "https://maps.app.goo.gl/joGCg2nCnc8tmZNa6"
 slides: 
-video: 
+video: "https://www.youtube.com/watch?v=uZT9s_-Cuyg"
 code: 
 language: English
 miscdetails: |
