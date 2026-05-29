@@ -4,7 +4,7 @@ uid: meeting172
 title: "JUG Milano Meeting #172"
 date: 2026-05-29 00:00
 meetingdate: 2026-06-18
-description: "Scaling smart energy: building a cloud-native platform for renewable communities"
+description: "Scaling smart energy - building a cloud-native platform for renewable communities"
 speaker: "Michele Giacobazzi"
 abstract: |
     As global energy demand surges, the transition to Renewable Energy Communities (RECs) and flexible markets is no longer optional, it’s a technical necessity. Join us as we take a deep dive into SPARklE, a cutting-edge platform designed to orchestrate the future of energy.
