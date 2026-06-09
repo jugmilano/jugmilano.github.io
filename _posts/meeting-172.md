@@ -24,6 +24,6 @@ miscdetails: |
     Evento ibrido online ed in presenza.
     <br/><br/>
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
-    <a href="https://www.eventbrite.com/">form di registrazione per partecipare a JUG Milano in presenza</a>
+    <a href="https://www.eventbrite.com/e/scaling-smart-energy-building-a-cloud-native-platform-for-renewable-comm-tickets-1991504709195?aff=oddtdtcreator&keep_tld=true">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
 ---
