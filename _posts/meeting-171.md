@@ -27,4 +27,5 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/beyond-code-the-spec-driven-development-paradigm-tickets-1989174398172?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
+eventbrite: 33
 ---

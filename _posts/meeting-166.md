@@ -26,4 +26,5 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/debugging-your-brain-how-cognitive-bias-shapes-our-practices-and-how-to-tickets-1975729162109?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
+eventbrite: 33
 ---

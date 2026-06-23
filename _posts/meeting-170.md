@@ -23,4 +23,5 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/scripting-on-the-jvm-with-java-scala-and-kotlin-tickets-1986885243248?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
+eventbrite: 30
 ---

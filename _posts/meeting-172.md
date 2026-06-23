@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting172
 title: "JUG Milano Meeting #172"
 date: 2026-05-29 00:00
@@ -26,4 +26,5 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/scaling-smart-energy-building-a-cloud-native-platform-for-renewable-comm-tickets-1991504709195?aff=oddtdtcreator&keep_tld=true">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
+eventbrite: 13
 ---
