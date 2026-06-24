@@ -32,4 +32,5 @@ miscdetails: |
     </b><br/>
     17 Novembre dalle 18.30 alle 20.30 <br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 22
 ---

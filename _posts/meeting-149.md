@@ -60,4 +60,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/implementare-una-bbs-per-commodore-64-ma-non-solo-con-java-tickets-725178758187?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 9
 ---

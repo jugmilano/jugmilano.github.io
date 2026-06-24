@@ -23,4 +23,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/supercharge-your-native-image-applications-tickets-502743438157">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 45
 ---

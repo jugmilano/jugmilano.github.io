@@ -38,4 +38,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/java-21-updates-tickets-716668975197?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 26
 ---

@@ -23,4 +23,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/kiota-delizia-senza-croce-per-la-generazione-di-codice-client-da-openapi-tickets-716669837777?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 16
 ---

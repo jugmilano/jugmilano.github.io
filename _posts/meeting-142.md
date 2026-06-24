@@ -23,4 +23,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/our-journey-to-the-data-mesh-boosting-data-in-a-microservice-world-tickets-524464636847">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 54
 ---

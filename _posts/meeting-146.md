@@ -59,4 +59,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/secrets-of-rockstardevshow-to-become-onetactics-strategies-on-sw-dev-tickets-651630222537">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 37
 ---

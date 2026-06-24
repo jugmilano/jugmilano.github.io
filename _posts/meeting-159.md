@@ -50,4 +50,5 @@ miscdetails: |
     What do you need for open source: soft or hard skills?<br/>
     Eclipse Foundation is a partner of SKILLAB, an European project that monitors the demand and supply of skills across the European labor market by leveraging advanced data mining, natural language processing, and machine learning. This approach not only identifies current skill gaps but also anticipates emerging needs, empowering Europe to stay ahead in a rapidly evolving employment landscape.<br/>
     In this presentation, we will introduce SKILLAB and explore the importance of soft skills in open-source environments, as well as how open source contributes to the development of hard skills.
+eventbrite: 23
 ---

@@ -25,4 +25,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/puoi-fidarti-della-tua-intelligenza-artificiale-ia-tickets-602772979207">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 23
 ---

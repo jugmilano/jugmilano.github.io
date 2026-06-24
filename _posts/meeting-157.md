@@ -40,4 +40,5 @@ miscdetails: |
     <br/><br/>
     Il ticket di eventbrite NON da' accesso all'edificio, ma ci serve unicamente per tenere traccia ordinata delle email e cap-pare chi interessato a partecipare in presenza.
     </b><br/>
+eventbrite: 19
 ---

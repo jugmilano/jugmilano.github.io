@@ -35,4 +35,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/bug-to-the-future-come-un-problema-vecchio-di-due-decenni-continua-a-in-tickets-738324086217?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 29
 ---

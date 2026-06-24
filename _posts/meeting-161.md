@@ -24,4 +24,5 @@ miscdetails: |
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
     <a href="https://www.eventbrite.com/e/an-accidental-conspiracy-how-your-load-generator-is-lying-to-you-tickets-1232127379159?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
+eventbrite: 16
 ---

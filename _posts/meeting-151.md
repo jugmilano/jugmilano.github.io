@@ -23,4 +23,5 @@ miscdetails: |
     <a href="https://www.eventbrite.com/e/intro-to-probabilistic-data-structures-tickets-800222275367?aff=oddtdtcreator">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
     Prevediamo di effettuare la diretta streaming su YouTube (con VOD a seguire) dell'evento.
+eventbrite: 26
 ---
