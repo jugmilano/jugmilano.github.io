@@ -21,4 +21,5 @@ map: https://www.google.it/maps/place/Venini42/@45.490556,9.2131888,17z/data=!3m
 slides: 
 video: https://youtu.be/vEW_nrrF9yE
 code: https://github.com/davsclaus/camel-riders-in-the-cloud/tree/milan-jug
+formspree: 52
 ---

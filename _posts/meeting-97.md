@@ -15,4 +15,5 @@ map: https://www.google.it/maps/place/Venini42/@45.490556,9.2131888,17z/data=!3m
 slides: https://github.com/slinkydeveloper/jug-talk-vertx-web-openapi-2017
 video: https://youtu.be/onP3JQMmeI8
 code: https://github.com/slinkydeveloper/jug-talk-vertx-web-openapi-2017
+formspree: 37
 ---
