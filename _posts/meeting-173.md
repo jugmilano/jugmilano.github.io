@@ -4,13 +4,13 @@ uid: meeting173
 title: "JUG Milano Meeting #173"
 date: 2026-09-06 00:00
 meetingdate: 2026-09-24
-description: "Introducing Data Access in Quarkus 4 with even more Panache"
+description: "I database in Quarkus 4 con ancora più Panache"
 speaker: "Luca Molteni"
 abstract: |
-    If you’ve used Panache in Quarkus, you know it’s about making data access feel simpler. We know users love it, and in this talk, we’ll discuss the new, improved version the Quarkus team has delivered.
-    We’ll explore how this evolution acts as a gateway to different data access technologies, helping you choose the best tool for your specific needs. We’ll also discuss new features you might not be familiar with yet, such as Stateless Sessions, and how they fit into the modern Quarkus stack. Finally, we’ll take a look at the upgraded, easier-to-understand documentation and build a few demos together to show exactly how to get started.
+    Se hai usato Panache in Quarkus, sai già che serve a rendere più semplice l’accesso ai dati. Gli utenti lo apprezzano e, in questo talk, parleremo della nuova versione migliorata realizzata dal team di Quarkus.
+    Esploreremo come questa evoluzione rappresenti un punto di accesso a diverse tecnologie per l’accesso ai dati, aiutandoti a scegliere lo strumento migliore per le tue esigenze specifiche. Parleremo anche di nuove funzionalità che potresti non conoscere ancora, come le Stateless Session, e di come si inseriscano nello stack Quarkus moderno. Infine, daremo un’occhiata alla documentazione aggiornata e più facile da comprendere, costruendo insieme alcune demo per mostrare esattamente come iniziare.
 bio: |
-    <b>Luca Molteni</b><br/> Luca is a Software Engineer working for IBM on Quarkus and Hibernate. He's an open source advocate. He believes that open source drives innovation, promote community development, and empowers individuals.<br/> 
+    Luca è un Software Engineer che lavora per IBM su Quarkus e Hibernate. È un sostenitore dell’open source. Crede che l’open source favorisca l’innovazione, promuova lo sviluppo delle community e dia forza alle persone.
 location: eDream ODIGEO Via Fara 26 20124 Milano - evento gratuito previa registrazione OBBLIGATORIA (vedi dettagli)
 thanks:  
 address: Via Gustavo Fara, 26, 20124 Milano MI 
