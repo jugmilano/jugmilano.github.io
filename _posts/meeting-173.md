@@ -24,7 +24,7 @@ miscdetails: |
     Evento ibrido online ed in presenza.
     <br/><br/>
     La partecipazione **in presenza** è gratuita e libera, ma è OBBLIGATORIA la registrazione su:
-    <a href="https://www.eventbrite.com/">form di registrazione per partecipare a JUG Milano in presenza</a>
+    <a href="https://www.eventbrite.com/e/i-database-in-quarkus-4-con-ancora-piu-panache-tickets-2001157668456">form di registrazione per partecipare a JUG Milano in presenza</a>
     </b><br/>
 eventbrite: 
 ---
