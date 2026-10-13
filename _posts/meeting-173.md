@@ -1,5 +1,5 @@
 ---
-layout: new_generic
+layout: old_meeting
 uid: meeting173
 title: "JUG Milano Meeting #173"
 date: 2026-09-06 00:00
@@ -16,7 +16,7 @@ thanks:
 address: Via Gustavo Fara, 26, 20124 Milano MI 
 map: "https://maps.app.goo.gl/Fd2LvYb7nVYGGiG66" 
 slides: 
-video: 
+video: "https://www.youtube.com/watch?v=wbXLcmuN3F4"
 code: 
 language: Italiano
 miscdetails: |
