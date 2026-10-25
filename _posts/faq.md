@@ -24,7 +24,16 @@ Abbiamo inoltre altri profili social, che puoi trovare in fondo ad ogni pagina, 
 
 Uno degli aspetti caratterizzanti del JUG Milano sono gli incontri dove viene presentato e dibatutto un tema a scelta di interesse per il gruppo; alla <a href="meetings">sezione meetings</a> è disponibile un archivio degli incontri precedenti e relativo materiale.
 
-Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list oppure contattando i coordinatori del JUG Milano.
+Se vuoi proporti come speaker per un incontro puoi candidari in Mailing-list (trovi
+<a href="https://groups.google.com/g/jugmilano/c/PCkO-Z7X_vU/m/2JYCr1iAAgAJ" target="_blank">alcuni</a>
+<a href="https://groups.google.com/g/jugmilano/c/_D7m1a7pI5g/m/_b3g226BAgAJ" target="_blank">esempi</a>
+<a href="https://groups.google.com/g/jugmilano/c/MPLx_Iqfcuk/m/JVrL2y41BgAJ" target="_blank">qui</a>
+), oppure contattando i coordinatori del JUG Milano.
+
+Non saranno accettate proposte che manifestino promozione diretta di prodotti o servizi di natura unicamente commerciale o di marketing.
+La finalità degli incontri è promuovere lo scambio di conoscenze e quindi l'obiettivo principale è che, al termine dell'incontro, i partecipanti possano aver acquisito nuove competenze o informazioni utili, senza sentirsi obbligati a utilizzare o acquistare un prodotto o servizio specifico attinente ai concetti esposti durante la presentazione.
+Vogliamo creare un ambiente in cui l'apprendimento e la condivisione siano al centro dell'attenzione, valorizzando i contributi concettuali e l'arricchimento personale, piuttosto che finalità commerciali.
+In questo modo, speriamo di favorire un dialogo aperto e costruttivo, dove ogni partecipante possa trarre beneficio dalle idee e dalle esperienze condivise, indipendentemente da interessi di marketing.
 
 ### Mailing-list
 
