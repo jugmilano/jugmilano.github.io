@@ -2,8 +2,8 @@
 layout: new_generic
 uid: meeting175
 title: "JUG Milano Meeting #175"
-date: 2026-11-19 00:00
-meetingdate: 2026-11-10
+date: 2026-11-10 00:00
+meetingdate: 2026-11-19
 description: "Flights, Failures and Forks: Structured Concurrency and Algebraic Data Types in Java"
 speaker: "Riccardo Cardin"
 abstract: |
